@@ -1,0 +1,42 @@
+---
+import Layout from "../layouts/Layout.astro";
+import NavBar from "../components/Navbar.astro";
+import Hero from "../components/Hero.astro";
+import Intro from "../components/Intro.astro";
+import CoOrganization from "../components/CoOrganization.astro";
+import GenerousPrize from "../components/GenerousPrize.astro";
+import Sponsors from "../components/Sponsors.astro";
+import Schedule from "../components/Schedule.astro";
+import JudgesSpeakersMentors from "../components/JudgesSpeakersMentors.astro";
+import Faq from "../components/Faq.astro";
+import Partners from "../components/Partners.astro";
+import Footer from "../components/Footer.astro";
+import Media from "../components/Media.astro";
+import i18next, { t, changeLanguage } from "i18next";
+import Venue from "../components/Venue.astro";
+import University from "../components/University.astro";
+
+changeLanguage("en");
+---
+
+<Layout title="ETH Beijing">
+  <NavBar />
+  <Hero />
+  <main class="container mx-auto px-8 sm:px-0 overflow-hidden">
+    <Intro />
+    <CoOrganization />
+    <GenerousPrize />
+    <Sponsors />
+    <Partners />
+    <Schedule />
+    <Venue />
+
+    <!-- <JudgesSpeakersMentors /> -->
+    <Media />
+    <University />
+    <Faq />
+  </main>
+  <Footer />
+</Layout>
+
+<style></style>
