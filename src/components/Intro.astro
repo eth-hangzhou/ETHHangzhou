@@ -6,7 +6,8 @@ import { Trans, HeadHrefLangs } from "astro-i18next/components";
 <section class="intro">
   <h1>
     {t("intro.title")}
-    <img src="/images/2023-badge-1.png" class="mx-4 year" />
+    <!-- <img src="/images/2023-badge-1.png" class="mx-4 year" /> -->
+    <div class="year-text">2023</div>
   </h1>
   <p class="text-neutral-900 desc">
     {t("intro.decs")}
@@ -30,10 +31,11 @@ import { Trans, HeadHrefLangs } from "astro-i18next/components";
     <div class="intro-content rounded-[10px]">
       <p>
         <Trans i18nKey="intro.content-1">
-          The hackathon is hosted by <b>PKU Blockchain DAO</b> (Beijing University Blockchain Association)
-          and <b>WTF Academy</b>, co-organized by <b>ETHPlanet</b> and <b>Scroll</b>.
+          The hackathon is hosted by <b>PKU Blockchain DAO</b> (Beijing University
+          Blockchain Association) and <b>WTF Academy</b>, co-organized by <b
+            >ETHPlanet</b
+          > and <b>Scroll</b>.
         </Trans>
-        <!-- {t("intro.content-1")} -->
       </p>
       <p>
         {t("intro.content-2")}
@@ -49,6 +51,7 @@ import { Trans, HeadHrefLangs } from "astro-i18next/components";
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow: visible;
   }
   h1 {
     display: flex;
@@ -75,6 +78,7 @@ import { Trans, HeadHrefLangs } from "astro-i18next/components";
     border: 0.5px solid #9ca3af;
     box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.06);
     border-radius: 10px;
+    overflow: visible;
   }
   .icon-wrapper {
     display: flex;
@@ -125,11 +129,24 @@ import { Trans, HeadHrefLangs } from "astro-i18next/components";
   .dot {
     z-index: -1;
     position: absolute;
-    background: linear-gradient(111.9deg, #ffd18a 0%, #ffe7e8 64.33%);
+    background: linear-gradient(112deg, #29c9a3 0%, #c1ecf2 64.33%);
     border-radius: 925925px;
     width: 200px;
     height: 200px;
     right: -80px;
     bottom: -60px;
+  }
+  .year-text {
+    background: linear-gradient(101deg, #27d59d 0%, #28bdd9 100.3%);
+    font-family: Lato;
+    font-size: 26px;
+    border-radius: 4px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+    padding: 3px 10px;
+    margin-left: 8px;
   }
 </style>
