@@ -51,6 +51,17 @@ Teams must choose one of the 3 main tracks. Each main track has $10,000 in prize
 ## Partner & Supporting Communities
 - [AWS]
 - [4everland]
+- [BUIDLERDAO]
+- [TinTin]
+- [登链社区]
+- [OpenBuild]
+- [moledao]
+- [LXDAO]
+- [infoFlow]
+- [3WW3]
+- [青年DAO]
+- [DeBox]
+- [JEER]
 - More coming soon!
 
 ## FAQ

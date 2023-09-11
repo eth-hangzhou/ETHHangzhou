@@ -78,16 +78,32 @@ $30,000+
 
 
 ## 赞助商
-- [Scroll](https://twitter.com/Scroll_ZKP)
-- [Chainlink](https://twitter.com/chainlink)
+- [Scroll]
+- [Chainlink]
 - [ZAN]
 - [BIXIN]
 - More coming soon!
 
 
-## 合作伙伴和支持社区
+## 合作伙伴
 - [AWS]
 - [4everland]
+- More coming soon!
+  
+## 支持社区
+- [AWS]
+- [4everland]
+- [BUIDLERDAO]
+- [TinTin]
+- [登链社区]
+- [OpenBuild]
+- [moledao]
+- [LXDAO]
+- [infoFlow]
+- [3WW3]
+- [青年DAO]
+- [DeBox]
+- [JEER]
 - More coming soon!
 
 ## 常问问题
