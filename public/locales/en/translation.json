@@ -1,18 +1,18 @@
 {
   "navbar": {
-    "title": "ETH Beijing!",
-    "description": "The first Ethereum community event in China in the post-covid-19 era!"
+    "title": "ETH Hanghou!",
+    "description": ""
   },
   "hero": {
     "apply-to-hack": "Apply to hack",
     "join-community": "Join Community"
   },
   "intro": {
-    "title": "ETH Beijing Hackathon",
-    "decs": "The first Ethereum community event in China in the post-covid-19 era!!",
+    "title": "ETH Hangzhou Hackathon",
+    "decs": "",
     "pku": "PKU BLOCKCHAIN",
-    "content-1": "The hackathon is hosted by <b>PKU Blockchain DAO</b> (Beijing University Blockchain Association) and <b>WTF Academy</b>, co-organized by <b>ETHPlanet</b> and <b>Scroll</b>.",
     "wtf": "WTF ACADEMY",
+    "content-1": "ETH Hangzhou is an up-and-coming ethereum community hackathon after ETH Beijing, hosted by <b>ZJU Blockchain Association, PKU Blockchain DAO</b> and <b>WTF Academy</b>.",
     "content-2": "With three main tracks and a total prize pool of $30,000+. As long as you have enough technical or research strength, you are welcome to participate in this event as an individual or in a team!"
   },
   "coOrganization": {
@@ -25,22 +25,17 @@
       {
         "track": "Track 1",
         "title": "Public Goods",
-        "description": "Build open-source projects on Ethereum"
+        "description": "Protocols, Infrastructure, Developer Tools, ……"
       },
       {
         "track": "Track 2",
-        "title": "Innovative Layer2 Dapp",
-        "description": "Build projects on Layer 2 that surprise"
+        "title": "Layer2 Application",
+        "description": "DAO, On-chain Gaming, Social, ……"
       },
       {
         "track": "Track 3",
-        "title": "Open Research",
-        "description": "Data, Policy, Security, MEV, Anti-sybil..."
-      },
-      {
-        "track": "Bounty Track",
-        "title": "Scroll",
-        "description": "Deploy smart contracts on Scroll"
+        "title": "Zero Knowledge",
+        "description": "Privacy, Data, Security, ……"
       }
     ]
   },
@@ -53,20 +48,10 @@
   "schedule": {
     "title": "Schedule",
     "Hackathon": "Hackathon",
-    "time-1": "Wed, Apr 5",
-    "time-2": "Thur, Apr 6 - Fri, Apr 7",
-    "time-3": "Sat, Apr 8",
+    "time-1": "Sat, Oct 14",
+    "time-2": "Sun, Oct 15 - Mon, Oct 16",
+    "time-3": "Tue, Oct 17",
     "open-ceremony": "Opening Ceremony",
-    "schedule-1": "02:00pm",
-    "topic-1": "Main Registration Opens!",
-    "schedule-2": "02:30pm",
-    "topic-2": "Workshops",
-    "schedule-3": "06:00pm",
-    "topic-3": "Dinner",
-    "schedule-4": "08:30pm",
-    "topic-4": "Opening Cermonies",
-    "schedule-5": "10:00pm",
-    "topic-5": "Team Formation & Idea Brainstorming Session",
     "tab-1-time-1": "12:00 AM",
     "tab-1-title-1": "Check-in starts",
     "tab-1-time-2": "06:00 PM",
@@ -76,8 +61,8 @@
     "tab-1-time-4": "12:00 PM",
     "tab-1-title-4": "Check-in ends",
 
-    "tab-2-time-1": "09:00 AM",
-    "tab-2-title-1": "Breakfast",
+    "tab-2-time-1": "All Day",
+    "tab-2-title-1": "Project Buidl",
     "tab-2-time-2": "12:00 AM",
     "tab-2-title-2": "Lunch",
     "tab-2-time-3": "01:00 PM",
@@ -87,11 +72,11 @@
     "tab-2-time-5": "07:00 PM",
     "tab-2-title-5": "Project progress report",
 
-    "tab-3-time-1": "09:00 AM",
-    "tab-3-title-1": "Breakfast",
+    "tab-3-time-1": "All Day",
+    "tab-3-title-1": "Project Buidl",
     "tab-3-time-2": "12:00 AM",
     "tab-3-title-2": "Lunch",
-    "tab-3-time-3": "03:00 PM",
+    "tab-3-time-3": "02:00 PM",
     "tab-3-title-3": "Project submission & First round of judging",
     "tab-3-time-4": "06:00 PM",
     "tab-3-title-4": "Dinner",
@@ -102,8 +87,8 @@
   },
   "venue": {
     "title": "Venue",
-    "name": "META SPACE (Wudaokou Branch)",
-    "address": "1st floor North, Building 1, Dongshengyuan Apartment, Heqing Road, Haidian District, Beijing."
+    "name": "Hangzhou Web3 hub",
+    "address": "Hanggang Technology Building, No. 509 Qianjiang Road, Shangcheng District, Hangzhou City, Zhejiang Province, China"
   },
   "media": { "title": "Media" },
   "university": { "title": "University & Community Support" },
@@ -111,21 +96,21 @@
   "Footer": {},
   "Faq": {
     "title": "FAQ",
-    "que1": "What is ETH Beijing?",
-    "ans1": "ETH Beijing is an event that bring Ethereum builders to Beijing.",
+    "que1": "What is ETH Hangzhou?",
+    "ans1": "ETH Hangzhou is an event that bring Ethereum builders to Hangzhou.",
     "que2": "Who is encouraged to attend this event?",
-    "ans2": "ETH Beijing Hackathon aims to bring developers, designers, researchers that want to build a project during a hackathon.",
-    "que3": "Does ETH Beijing charge any fees?",
-    "ans3": "ETH Beijing is free to attent.",
-    "que4": "Will ETH Beijing offer travel scholarships to hackers?",
-    "ans4": "we will provide foods, accomodations, and travel compensation to students if budget permits.",
+    "ans2": "ETH Hangzhou Hackathon aims to bring developers, designers, researchers that want to build a project during a hackathon.",
+    "que3": "Does ETH Hangzhou charge any fees?",
+    "ans3": "ETH Hangzhou is free to attent.",
+    "que4": "Will ETH Hangzhou offer travel scholarships to hackers?",
+    "ans4": "We will provide foods, accomodations, and travel compensation to students if budget permits.",
     "que5": "Can I participate remotely at this event?",
-    "ans5": "No, ETH Beijing Hackathon is a in-person event in Beijing, and you need to attend in person.",
+    "ans5": "No, ETH Hangzhou Hackathon is a in-person event in Hangzhou, and you need to attend in person.",
     "que6": "How many members are allowed on my team?",
-    "ans6": "Each team can have up to a maximum of 5 members in total.",
+    "ans6": "Each team can have up to a maximum of 4 members in total.",
     "que7": "Can I start working on my project before the event?",
     "ans7": "No. In the interest of fairness, attendees should not be working on their projects before the hackathon begins and we do not allow participants to work on pre-existing projects. But you can familarize with the tools of the project.",
     "que8": "What can I build during the event?",
-    "ans8": "We provide 3 main tracks and several sponsor tracks in ETH Beijing. Each project must select 1 main track and can optionally select any sponsor tracks that fit."
+    "ans8": "We provide 3 main tracks in ETH Hangzhou. Each project must select 1 main track."
   }
 }

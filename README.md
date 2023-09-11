@@ -1,4 +1,4 @@
-![](./img/banner.jpeg)
+![](./img/banner.png)
 # ETH Hangzhou Hackathon
 [中文](./README-cn.md)
 

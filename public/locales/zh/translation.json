@@ -1,19 +1,19 @@
 {
   "navbar": {
-    "title": "ETH Beijing",
-    "description": "后新冠时期，中国第一个以太坊线下活动!"
+    "title": "ETH Hangzhou",
+    "description": ""
   },
   "hero": {
     "apply-to-hack": "Apply to hack",
     "join-community": "Join Community"
   },
   "intro": {
-    "title": "ETH Beijing 黑客松",
-    "decs": "后新冠时期，中国第一个以太坊线下活动!",
+    "title": "ETH Hangzhou 黑客松",
+    "decs": "",
     "pku": "PKU BLOCKCHAIN",
-    "content-1": "ETH Beijing 黑客松，由 <b>PKU Blockchain DAO</b> 和 <b>WTF Academy</b> 主办，<b>ETHPlanet</b> 和 <b>Scroll</b> 协办。",
+    "content-1": "在当今全球数字趋势过程中，区块链技术的重要性日益凸显，其中以太坊作为 “Code is Law”的先驱者更是Web3生态的 “门面” 之一。为了促进以太坊生态系统在中国的发展，4月8日，中国后新冠时期首个以太坊线下黑客松活动——ETH Beijing 圆满落幕。此次活动吸引了超过400名开发者参与，最终挑选出150名优秀选手，共收到了55个项目提交，展现了强大的创新力。",
     "wtf": "WTF ACADEMY",
-    "content-2": "总奖池超过 $30,000，我们将为以太坊开发者和研究员提供极致的黑客松体验!"
+    "content-2": "ETH Hangzhou 是继ETH Beijing 之后，又一个新兴的以太坊社区黑客马拉松，由浙江大学学生区块链协会 ZJU Blockchain Association 、 北京大学区块链协会 PKU Blockchain DAO 与Web3 开源大学 WTF Academy 共同主办。活动致力于推广以太坊网络，吸引更多的开发者加入web3社区，并在浙江形成Web3文化。"
   },
   "coOrganization": {
     "title": "协办方"
@@ -25,22 +25,17 @@
       {
         "track": "赛道 1",
         "title": "公共品",
-        "description": "在以太坊上构建开源项目"
+        "description": "基础协议, 基础设施, 开发者工具, ..."
       },
       {
         "track": "赛道 2",
         "title": "Layer2 创新应用",
-        "description": "构建基于Layer 2的创新型应用项目"
+        "description": "DAO, 游戏, 社交, ..."
       },
       {
         "track": "赛道 3",
-        "title": "开放研究 (非开发者向)",
-        "description": "链上数据/政策/安全/MEV/反女巫/... 方向的研究"
-      },
-      {
-        "track": "Bounty Track",
-        "title": "Scroll",
-        "description": "在 Scroll 上部署智能合约"
+        "title": "零知识证明应用",
+        "description": "隐私, 数据, 安全, ..."
       }
     ]
   },
@@ -57,16 +52,6 @@
     "time-2": "Thur, Apr 6 - Fri, Apr 7",
     "time-3": "Sat, Apr 8",
     "open-ceremony": "Opening Ceremony",
-    "schedule-1": "02:00pm",
-    "topic-1": "Main Registration Opens!",
-    "schedule-2": "02:30pm",
-    "topic-2": "Workshops",
-    "schedule-3": "06:00pm",
-    "topic-3": "Dinner",
-    "schedule-4": "08:30pm",
-    "topic-4": "Opening Cermonies",
-    "schedule-5": "10:00pm",
-    "topic-5": "Team Formation & Idea Brainstorming Session",
 
     "tab-1-time-1": "12:00 AM",
     "tab-1-title-1": "签到开始",
@@ -77,8 +62,8 @@
     "tab-1-time-4": "12:00 PM",
     "tab-1-title-4": "签到结束",
 
-    "tab-2-time-1": "09:00 AM",
-    "tab-2-title-1": "早饭",
+    "tab-2-time-1": "全天",
+    "tab-2-title-1": "项目Buidl",
     "tab-2-time-2": "12:00 AM",
     "tab-2-title-2": "午饭",
     "tab-2-time-3": "01:00 PM",
@@ -88,8 +73,8 @@
     "tab-2-time-5": "07:00 PM",
     "tab-2-title-5": "项目汇报进展",
 
-    "tab-3-time-1": "09:00 AM",
-    "tab-3-title-1": "早饭",
+    "tab-3-time-1": "全天",
+    "tab-3-title-1": "项目Buidl",
     "tab-3-time-2": "12:00 AM",
     "tab-3-title-2": "午饭",
     "tab-3-time-3": "03:00 PM",
@@ -103,8 +88,8 @@
   },
   "venue": {
     "title": "会场",
-    "name": "META SPACE(五道口店)",
-    "address": "北京市海淀区荷清路东升园公寓1号楼1层北部"
+    "name": "Hangzhou Web3 hub",
+    "address": "中国浙江省杭州市上城区钱江路509号杭港科技大厦"
   },
   "media": { "title": "Media" },
   "university": { "title": "大学和社区支持" },
@@ -112,21 +97,21 @@
   "Footer": {},
   "Faq": {
     "title": "常见问题",
-    "que1": "ETH Beijing（以太坊北京）是什么?",
-    "ans1": "ETH Beijing 黑客松是一个让以太坊开发者齐聚北京并搭建项目的活动，2023年4月5日 - 4月8日（共 72 小时）。",
+    "que1": "ETH Hangzhou（以太坊北京）是什么?",
+    "ans1": "ETH Hangzhou 黑客松是一个让以太坊开发者齐聚北京并搭建项目的活动，2023年4月5日 - 4月8日（共 72 小时）。",
     "que2": "谁被鼓励参加这个活动？",
     "ans2": "我们鼓励想在黑客松期间构建项目的开发人员、设计师和研究人员参与。",
-    "que3": "ETH Beijing 收费吗？",
-    "ans3": "ETH Beijing 免费入场。",
-    "que4": "ETH Beijing 会提供为黑客提供旅行奖学金吗?",
+    "que3": "ETH Hangzhou 收费吗？",
+    "ans3": "ETH Hangzhou 免费入场。",
+    "que4": "ETH Hangzhou 会提供为黑客提供旅行奖学金吗?",
     "ans4": "如果预算允许，我们将为学生提供食物、住宿和旅行补偿。",
     "que5": "我可以远程参加这个活动吗？",
-    "ans5": "不可以，Beijing Hackathon 是在北京举办的线下活动，你需要线下参与。",
+    "ans5": "不可以，Hangzhou Hackathon 是在北京举办的线下活动，你需要线下参与。",
     "que6": "一个团队允许有多少成员？",
     "ans6": "每个团队总共最多可以有 5 名成员。",
     "que7": "我可以在活动前开始搭建我的项目吗？",
     "ans7": "不可以。为了公平起见，参与者不应在黑客松开始前从事他们的项目，同时也不允许已有项目参加。但是您可以在黑客松前打磨想法，熟悉开发工具。",
     "que8": "我可以在黑客松搭建什么项目？",
-    "ans8": "我们在 ETH Beijing 提供 3 个主赛道和几个赞助赛道。每个项目必须选择 1 个主要轨道，并且可以选择任何合适的赞助商赛道。"
+    "ans8": "我们在 ETH Hangzhou 提供 3 个主赛道和几个赞助赛道。每个项目必须选择 1 个主要轨道，并且可以选择任何合适的赞助商赛道。"
   }
 }
