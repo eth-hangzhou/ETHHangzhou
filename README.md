@@ -1,6 +1,10 @@
 ![](./img/banner.jpeg)
 # ETH Hangzhou Hackathon
 [中文](./README-cn.md)
+
+ETH Hangzhou is an up-and-coming ethereum community hackathon after ETH Beijing, hosted by ZJU Blockchain Association, PKU Blockchain DAO and WTF Academy.
+
+With three main tracks and a total prize pool of $30,000+. As long as you have enough technical or research strength, you are welcome to participate in this event as an individual or in a team!
 ## Time
 October 14 - October 17, 2023
 
@@ -32,7 +36,37 @@ Teams must choose one of the 3 main tracks. Each main track has $10,000 in prize
 3. **Zero Knowledge**: Privacy, Data, Security, ……
 
 
-## Organizer
+## Schedule
+
+| Event                               | Date            | Time           | Guest                            |
+| ----------------------------------- | --------------- | ---------------| --------------------------------- |
+| Participant Check-in                | ⏰ October 14th | 12:00 PM       |                                  |
+| Team Formation Deadline             | ⏰ October 14th | Until 7:00 PM  |                                  |
+| Dinner                              | ⏰ October 14th | 6:00 PM        |                                  |
+| Project Introduction (Each Team, not exceeding 3 minutes) | ⏰ October 14th | 7:00 PM | |
+|                                     |                 |                |                                  |
+| Project Build                       | ⏰ October 15th | All Day        |                                  |
+| Lunch                               | ⏰ October 15th | 12:00 PM       |                                  |
+| Workshop                            | ⏰ October 15th | 1:00 PM - 5:30 PM |  |
+| Dinner                              | ⏰ October 15th | 6:00 PM        |                                  |
+| Project Progress Report (Each Team, not exceeding 3 minutes) | ⏰ October 15th | 7:00 PM | |
+|                                     |                 |                |                                  |
+| Project Build                       | ⏰ October 16th | All Day        |                                  |
+| Lunch                               | ⏰ October 16th | 12:00 PM       |                                  |
+| Workshop                            | ⏰ October 16th | 1:00 PM - 5:30 PM |  |
+| Dinner                              | ⏰ October 16th | 6:00 PM        |                                  |
+| Project Progress Report (Each Team, not exceeding 3 minutes) | ⏰ October 16th | 7:00 PM | |
+|                                     |                 |                |                                  |
+| Project Build                       | ⏰ October 17th | Until 3:00 PM  |                                  |
+| Lunch                               | ⏰ October 17th | 12:00 PM       |                                  |
+| Project Submission                  | ⏰ October 17th | 2:00 PM        |                                  |
+| Judges' Scoring (Two Rounds, Sponsor Priority in the Finals) | ⏰ October 17th | 2:00 PM - 5:30 PM |  |
+| Dinner                              | ⏰ October 17th | 6:00 PM        |                                  |
+| Announcement, Awards, and Demo Day  | ⏰ October 17th | 7:00 PM        |                                  |
+| After Party                         | ⏰ October 17th | 9:00 PM        |                                  |
+
+
+## Organizer 
 
 - [ZJU Blockchain](https://twitter.com/ZJUBCA)
 - [PKU Blockchain](https://twitter.com/PKUBlockchain)
