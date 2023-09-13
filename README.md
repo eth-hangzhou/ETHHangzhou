@@ -110,7 +110,7 @@ ETH Hangzhou Hackathon aims to bring developers, designers, researchers that wan
 
 ### Does ETH Hangzhou charge any fees?
 
-ETH Hangzhou is free to attent.
+ETH Hangzhou is free to attend.
 
 ### Will ETH Hangzhou offer travel scholarships to hackers?
 
