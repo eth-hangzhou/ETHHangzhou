@@ -3,6 +3,14 @@
     "title": "ETH Hanghou!",
     "description": ""
   },
+  "menu":{
+    "overview": "Overview",
+    "prizes": "Prizes",
+    "schedule": "Schedule",
+    "venue": "Venue",
+    "media": "Media",
+    "faq": "FAQ"
+  },
   "hero": {
     "apply-to-hack": "Apply to hack",
     "join-community": "Join Community"
@@ -25,17 +33,17 @@
       {
         "track": "Track 1",
         "title": "Public Goods",
-        "description": "Protocols, Infrastructure, Developer Tools, ……"
+        "description": "Build open-source projects on Ethereum (Protocols, Infrastructure, Developer Tools, ……)"
       },
       {
         "track": "Track 2",
         "title": "Layer2 Application",
-        "description": "DAO, On-chain Gaming, Social, ……"
+        "description": "Build projects on Layer 2 that surprise (DAO, On-chain Gaming, Social, ……)"
       },
       {
         "track": "Track 3",
         "title": "Zero Knowledge",
-        "description": "Privacy, Data, Security, ……"
+        "description": "Build projects with Zero Knowledge (Privacy, Data, Security, ……)"
       }
     ]
   },
@@ -48,9 +56,9 @@
   "schedule": {
     "title": "Schedule",
     "Hackathon": "Hackathon",
-    "time-1": "Sat, Oct 14",
-    "time-2": "Sun, Oct 15 - Mon, Oct 16",
-    "time-3": "Tue, Oct 17",
+    "time-1": "Fri, Oct 13",
+    "time-2": "Sat, Oct 14 - Sun, Oct 15",
+    "time-3": "Mon, Oct 16",
     "open-ceremony": "Opening Ceremony",
     "tab-1-time-1": "12:00 AM",
     "tab-1-title-1": "Check-in starts",

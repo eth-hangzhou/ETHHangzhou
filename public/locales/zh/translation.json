@@ -3,9 +3,17 @@
     "title": "ETH Hangzhou",
     "description": ""
   },
+  "menu":{
+    "overview": "概览",
+    "prizes": "奖项",
+    "schedule": "日程",
+    "venue": "会场",
+    "media": "媒体",
+    "faq": "常见问题"
+  },
   "hero": {
-    "apply-to-hack": "Apply to hack",
-    "join-community": "Join Community"
+    "apply-to-hack": "立即报名",
+    "join-community": "加入社区"
   },
   "intro": {
     "title": "ETH Hangzhou 黑客松",
@@ -25,17 +33,17 @@
       {
         "track": "赛道 1",
         "title": "公共品",
-        "description": "基础协议, 基础设施, 开发者工具, ..."
+        "description": "在以太坊上构建开源项目, 如基础协议, 基础设施, 开发者工具, ..."
       },
       {
         "track": "赛道 2",
         "title": "Layer2 创新应用",
-        "description": "DAO, 游戏, 社交, ..."
+        "description": "构建基于Layer 2的创新型应用项目, 如DAO, 游戏, 社交, ..."
       },
       {
         "track": "赛道 3",
         "title": "零知识证明应用",
-        "description": "隐私, 数据, 安全, ..."
+        "description": "基于零知识证明构建应用, 如关于隐私, 数据, 安全, ..."
       }
     ]
   },
@@ -47,43 +55,43 @@
   },
   "schedule": {
     "title": "日程表",
-    "Hackathon": "Hackathon",
-    "time-1": "Sat, Oct 14",
-    "time-2": "Sun, Oct 15 - Mon, Oct 16",
-    "time-3": "Tue, Oct 17",
+    "Hackathon": "黑客松",
+    "time-1": "9月13日 周五",
+    "time-2": "9月14日 周六 至 9月15日 周日",
+    "time-3": "9月16日 周一",
     "open-ceremony": "Opening Ceremony",
 
-    "tab-1-time-1": "12:00 AM",
+    "tab-1-time-1": "上午 12:00",
     "tab-1-title-1": "签到开始",
-    "tab-1-time-2": "06:00 PM",
+    "tab-1-time-2": "下午 06:00",
     "tab-1-title-2": "晚饭",
-    "tab-1-time-3": "07:00 PM",
+    "tab-1-time-3": "下午 07:00",
     "tab-1-title-3": "项目介绍（每个团队2分钟）",
-    "tab-1-time-4": "12:00 PM",
+    "tab-1-time-4": "下午12:00",
     "tab-1-title-4": "签到结束",
 
     "tab-2-time-1": "全天",
     "tab-2-title-1": "项目Buidl",
-    "tab-2-time-2": "12:00 AM",
+    "tab-2-time-2": "上午 12:00",
     "tab-2-title-2": "午饭",
-    "tab-2-time-3": "01:00 PM",
+    "tab-2-time-3": "下午 01:00",
     "tab-2-title-3": "Workshop",
-    "tab-2-time-4": "06:00 PM",
+    "tab-2-time-4": "下午 06:00",
     "tab-2-title-4": "晚饭",
-    "tab-2-time-5": "07:00 PM",
+    "tab-2-time-5": "下午 07:00",
     "tab-2-title-5": "项目汇报进展",
 
     "tab-3-time-1": "全天",
     "tab-3-title-1": "项目Buidl",
-    "tab-3-time-2": "12:00 AM",
+    "tab-3-time-2": "上午 12:00",
     "tab-3-title-2": "午饭",
-    "tab-3-time-3": "03:00 PM",
+    "tab-3-time-3": "下午 03:00",
     "tab-3-title-3": "提交项目 & 评委第一轮打分",
-    "tab-3-time-4": "06:00 PM",
+    "tab-3-time-4": "下午 06:00",
     "tab-3-title-4": "晚饭",
-    "tab-3-time-5": "07:00 PM",
+    "tab-3-time-5": "下午 07:00",
     "tab-3-title-5": "Demo Day (每个赛道前5名，每个项目 5 分钟)",
-    "tab-3-time-6": "09:00 PM",
+    "tab-3-time-6": "下午 09:00",
     "tab-3-title-6": "After Party"
   },
   "venue": {
