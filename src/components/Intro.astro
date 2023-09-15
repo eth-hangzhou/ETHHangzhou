@@ -12,7 +12,7 @@ import { Trans, HeadHrefLangs } from "astro-i18next/components";
   <p class="text-neutral-900 desc">
     {t("intro.decs")}
   </p>
-  <div class="wrapper max-lg:w-[440px] max-sm:w-[320px]">
+  <div class="wrapper max-lg:w-[440px] max-sm:w-[320px] items-center">
     <div class="icon-wrapper max-lg:border-b-[0.5px] lg:border-r-[0.5px]">
       <div class="svg-container">
         <div class="icon">
@@ -23,14 +23,18 @@ import { Trans, HeadHrefLangs } from "astro-i18next/components";
     <div class="intro-content rounded-[10px]">
       <p>
         <Trans i18nKey="intro.content-1">
-          The hackathon is hosted by <b>ZJU Blockchain DAO</b> (Zhejiang University  
-          Blockchain Association), <b>PKU Blockchain DAO</b> and <b>WTF Academy</b>.
+          The hackathon is hosted by <b>ZJU Blockchain DAO</b> (Zhejiang University
+          Blockchain Association), <b>PKU Blockchain DAO</b> and <b
+            >WTF Academy</b
+          >.
         </Trans>
       </p>
       <p>
         <Trans i18nKey="intro.content-2">
-          The hackathon is hosted by <b>ZJU Blockchain DAO</b> (Zhejiang University  
-          Blockchain Association), <b>PKU Blockchain DAO</b> and <b>WTF Academy</b>.
+          The hackathon is hosted by <b>ZJU Blockchain DAO</b> (Zhejiang University
+          Blockchain Association), <b>PKU Blockchain DAO</b> and <b
+            >WTF Academy</b
+          >.
         </Trans>
       </p>
     </div>
@@ -74,10 +78,10 @@ import { Trans, HeadHrefLangs } from "astro-i18next/components";
     overflow: visible;
   }
   .icon-wrapper {
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
-    height: 229px;
+    align-items: center; */
+    /* height: 229px; */
     width: 440px;
   }
   .year {
@@ -143,10 +147,10 @@ import { Trans, HeadHrefLangs } from "astro-i18next/components";
     margin-left: 8px;
   }
   .zju {
-    width: 140px; 
+    width: 140px;
   }
 
   .svg-container {
     padding: 16px;
-}
+  }
 </style>
