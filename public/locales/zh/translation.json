@@ -11,6 +11,10 @@
     "media": "媒体",
     "faq": "常见问题"
   },
+  "time":{
+    "registry-time": "/images/reg-time-zh.png",
+    "hackathon-time": "/images/hack-time-zh.png"
+  },
   "hero": {
     "apply-to-hack": "立即报名",
     "join-community": "加入社区"
@@ -19,9 +23,9 @@
     "title": "ETH Hangzhou 黑客松",
     "decs": "",
     "pku": "PKU BLOCKCHAIN",
-    "content-1": "在当今全球数字趋势过程中，区块链技术的重要性日益凸显，其中以太坊作为 “Code is Law”的先驱者更是Web3生态的 “门面” 之一。为了促进以太坊生态系统在中国的发展，4月8日，中国后新冠时期首个以太坊线下黑客松活动——ETH Beijing 圆满落幕。此次活动吸引了超过400名开发者参与，最终挑选出150名优秀选手，共收到了55个项目提交，展现了强大的创新力。",
+    "content-1": "ETH Hangzhou 是一次获得<b>以太坊基金会(ESP)</b>的赞助，面向全体以太坊开发者的杭州线下黑客马拉松活动，旨在促进以太坊生态在中国的发展。本次黑客松邀请了众多资深区块链从业人士进行指导，参与者可以在活动期间开发基于以太坊区块链的应用程序或解决方案，并与其他开发者进行交流与合作。",
     "wtf": "WTF ACADEMY",
-    "content-2": "ETH Hangzhou 是继ETH Beijing 之后，又一个新兴的以太坊社区黑客马拉松，由浙江大学学生区块链协会 ZJU Blockchain Association 、 北京大学区块链协会 PKU Blockchain DAO 与Web3 开源大学 WTF Academy 共同主办。活动致力于推广以太坊网络，吸引更多的开发者加入web3社区，并在浙江形成Web3文化。"
+    "content-2": "ETH Hangzhou是继ETH Beijing之后，又一次在中国大陆举行的全球官方以太坊黑客马拉松。本次活动由<b>浙江大学学生区块链协会(ZJUBCA)、PKU Blockchain</b>和<b>WTF Academy</b>联合主办，届时众多有精彩表现的项目也会在杭州分享相关进展。"
   },
   "coOrganization": {
     "title": "协办方"

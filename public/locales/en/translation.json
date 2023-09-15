@@ -15,13 +15,17 @@
     "apply-to-hack": "Apply to hack",
     "join-community": "Join Community"
   },
+  "time":{
+    "registry-time": "/images/reg-time.png",
+    "hackathon-time": "/images/hack-time.png"
+  },
   "intro": {
     "title": "ETH Hangzhou Hackathon",
     "decs": "",
     "pku": "PKU BLOCKCHAIN",
     "wtf": "WTF ACADEMY",
-    "content-1": "ETH Hangzhou is an up-and-coming ethereum community hackathon after ETH Beijing, hosted by <b>ZJU Blockchain Association, PKU Blockchain DAO</b> and <b>WTF Academy</b>.",
-    "content-2": "With three main tracks and a total prize pool of $30,000+. As long as you have enough technical or research strength, you are welcome to participate in this event as an individual or in a team!"
+    "content-1": "ETH Hangzhou is a Hangzhou on-site hackathon sponsored by the <b>Ethereum Foundation Ecosystem Support Program (ESP)</b> for all ethereum developers to promote the development of the ethereum ecosystem in China. The hackathon invites a number of senior blockchain practitioners to provide guidance, and participants can develop applications or solutions based on the ethereum blockchain, as well as communicate and collaborate with other developers during the event.",
+    "content-2": "ETH Hangzhou is another official global ethereum hackathon held in mainland China after ETH Beijing. The event is co-organized by <b>Zhejiang University Student Blockchain Association (ZJUBCA), PKU Blockchain</b> and <b>WTF Academy</b>, and many projects with exciting performances will also be in Hangzhou to share their progress."
   },
   "coOrganization": {
     "title": "Co-organization"
