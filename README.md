@@ -24,7 +24,7 @@ $15,000+
 [Application](https://docs.google.com/forms/d/e/1FAIpQLSeqm45uEfWECqmNWErGSDR0QHFnhKPdiQyyJyrteroOhvVzrQ/viewform) 
 
 ## Team Info
-//Todo
+[Team Info Page](https://github.com/eth-hangzhou/ETHHangzhou/blob/main/team-info.md)
 
 ## Hackathon Track
 ### Main track
