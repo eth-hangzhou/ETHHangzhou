@@ -23,4 +23,4 @@ ETH Hangzhou Hackathon 的项目需要提交到本页，PR（Pull-Request）截�
 
 进入Demo Day的每个项目有 5 分钟展示时间。
 
-项目提交PR示例详见：https://github.com/eth-hangzhou/ETHHangzhou/pull/6
+❗❗❗项目提交PR示例详见：https://github.com/eth-hangzhou/ETHHangzhou/pull/6
