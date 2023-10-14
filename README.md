@@ -4,7 +4,7 @@
 
 ETH Hangzhou is an up-and-coming ethereum community hackathon after ETH Beijing, hosted by ZJU Blockchain Association, PKU Blockchain DAO and WTF Academy.
 
-With three main tracks and a total prize pool of $30,000+. As long as you have enough technical or research strength, you are welcome to participate in this event as an individual or in a team!
+With three main tracks and a total prize pool of $15,000+. As long as you have enough technical or research strength, you are welcome to participate in this event as an individual or in a team!
 ## Time
 October 13 - October 16, 2023
 
