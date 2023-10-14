@@ -27,7 +27,9 @@ $30,000+
 
 
 ## 队伍信息
-//Todo
+
+[队伍信息页面](https://github.com/eth-hangzhou/ETHHangzhou/blob/main/team-info.md)
+
 
 ## 黑客松赛道
 ### 主赛道: 
