@@ -1,10 +1,10 @@
-# magipop magiry
+# Magiry.ai
 
 ### Track
    
 Layer 2 Application
 
-### Introduction of magiry
+### Introduction of Magiry.ai
 
 On-chain contribution recorder for idea collaboration.
 Making creative collaboration in the 'Open Studio' possible.
@@ -39,7 +39,7 @@ Super easy way for creator onboarding:
     
 ### Goals for This Hackathon
 
-1. Buidling magiry for easier and transparent creative collaborations on Ethereum.
+1. Buidling Magiry.ai for easier and transparent creative collaborations on Ethereum.
 2. looking forward to moving forward together with talented buidlers globally.
 3. Exploring high-performance creative collaboration solutions through Ethereum Layer2 integrations.
 
@@ -51,11 +51,11 @@ Super easy way for creator onboarding:
 
 ### Demo Link
 
-[Demo Video of magiry](https://youtu.be/ifuIPDwWeJ4)
+[Demo Video of Magiry.ai](https://youtu.be/ifuIPDwWeJ4)
 
 ### Github repo
     
-[repo of magipop magiry](https://github.com/Kincc-9999/magipop_magiry)
+[repo of Magiry.ai](https://github.com/Kincc-9999/magipop_Magiry.ai)
 
 ### Originality Statement
     
