@@ -44,18 +44,18 @@ Artemis希望在坚持“**私钥完全本地存储、且只由用户掌握**”
 
 **5 队长和队员**: 
 
-队长: [@potatooo.eth](https://github.com/llgoody) 队友：[@jack](https://github.com/jack23615)    [@baiyang](https://github.com/baiyang1994)    [@zys](https://github.com/zhangyongshuai123)
+队长: [@potatooo](https://github.com/llgoody)   队友：[@jack](https://github.com/jack23615)    [@baiyang](https://github.com/baiyang1994)    [@zys](https://github.com/zhangyongshuai123)
 
 **6 本项目在这次黑客松的目标:**
 
-目标：
 1. 通过telegram web app实现有用户界面的tg bot（参考telegram bot官方文档）。
 2. 实现tg bot内的私钥加密、签名及本地存储（参考Metamask开源代码）。
 3. 实现ETH对ERC20 Token的市价、限价买卖。
    1. 使用uniswap v2的流动性。
    2. 限价买卖方案基于permit2实现，无需用户提供私钥。
 
-**7 黑客松前两日的进度**
+**7 黑客松前两日的进度**  
+
 - Day 0:
   - [x] 完成组队，GitHub org&repo 的新建：https://github.com/orgs/amazingtgbot/repositories
   - [x] 细化方案&任务分工：
@@ -72,12 +72,21 @@ Artemis希望在坚持“**私钥完全本地存储、且只由用户掌握**”
   - [x] 完成所有开发。
   - [x] 完成联调。
   - [x] 完成 team info 以及视频录制等。
-**8 视频链接:**
+  
+**8 视频链接:**  
+
 https://www.bilibili.com/video/BV1LT411x72Q/
-**9 项目 github repo 链接:**
-所有代码都在
+
+**9 项目 github repo 链接:**  
+
+所有代码都在  
+
 https://github.com/amazingtgbot/tradingbot
-**10 是否基于之前的项目:**
+
+**10 是否基于之前的项目:**  
+
 该项目是本次hackathon期间，从0到1开发的项目，完全原创。
-**24.11 项目 Demo 链接（选填）:**
+
+**11 项目 Demo 链接（选填）:**  
+
 https://github.com/0xevm/sloads_demo#sloads-demo----
