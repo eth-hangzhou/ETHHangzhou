@@ -35,7 +35,7 @@ Super easy way for creator onboarding:
 ### Team
     
 - **bL1nk^**: Full stack developer,  AI algorithm, 2018 Apple WWDC Scholarship winner
-- **Serin Ai**: Expert in creator economy, former Alibaba, operated 1 million+ creators, 10 million+ DAU Content App, responsible for creator live streaming e-commerce with an annual $3 billion+ GMV
+- **Serein Ai**: Expert in creator economy, former Alibaba, operated 1 million+ creators, 10 million+ DAU Content App, responsible for creator live streaming e-commerce with an annual $3 billion+ GMV
     
 ### Goals for This Hackathon
 
