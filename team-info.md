@@ -50,7 +50,8 @@ Super easy way for creator onboarding:
 3. Tested creative recording and tokenomics frameworks.
 
 ### Demo Link
-   （可以是录屏或其他形式），可以选择的视频平台：[Youtube](https://youtube.com)，[Bilibili](https://bilibili.com)，[Loom](https://www.loom.com/)，视频长度不能超过3分钟，否则扣分。
+
+[Demo Video of magiry](https://youtu.be/ifuIPDwWeJ4)
 
 ### Github repo
     
