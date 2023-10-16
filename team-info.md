@@ -1757,3 +1757,455 @@ https://github.com/Insomnia501/Pocket-sol
 
 10. 该项目是本次hackathon期间，从0到1开发的项目，完全原创
 11. 项目 Demo 链接 : https://stellar-x-three.vercel.app/
+
+# 30. ETHtix
+1.ETHtix
+
+2.Public Goods
+
+3.https://web3eventfile.s3.ap-southeast-1.amazonaws.com/media%2F1697434359300-ba4d8857e96ed15ce0d9915e3f5ce0b63fec7f61.jpg
+
+4.ETHTix是一个web3的票务工具 
+
+5.ETHTix
+
+6.基于ETHTix，增加活动押金合约
+
+7.完成
+
+8.https://www.bilibili.com/video/BV1sh4y1q7u1/?vd_source=472e4b6ed33dd32f6922b57bb1b7cf27
+
+9.https://github.com/ethtix/Solidity_Contract
+
+10.ethtix是之前开发的项目，本次黑客松主要开发了 活动押金功能，该押金合约，是本次hackathon期间，从0到1开发的，完全原创。
+
+11.https://ethtix.io/user/main
+
+# 31. PIVOT
+1. 项目名称：PIVOT
+2. 所选赛道：Layer2 Application
+3. 项目图片：https://github.com/GitVerse-Web3/ETHHangzhou/blob/main/img/Team%2341_ScreenShot.png
+4. 简介：PIVOT（一个全去中心化的不贬值资产的众包估值协议）旨在帮助各类开源项目（代码、视频、文档、数据集等）在不影响开源性的情况下获取收益。P.I.V.O.T.协议本质上是一个股份无限增发的偏佛系的机制，其价值不依赖稀缺性。该协议结合了例如打赏、股份、股指、分红、等机制的优势。  其特点如下：
+- 股价在所有时间恒定
+- 打赏即买股
+- 买股即灵魂绑定（SBT）
+- 卖股即增发
+    - 卖多少增发多少
+    - 增发股份等比稀释
+- 卖股即盈利
+- 盈利即分红
+- 所有股份在同一时间权益平等
+    - 权益即分红权
+- 股东数量即股指
+
+5. 队长和队员：
+  Zaki（产品）/Linus（前端）/Bruce（合约）
+6. 本项目在这次黑客松的目标
+   - 创建一个简单的DAPP，可实现Hacker/Youtuber/Writter上传自己的项目并Mint NFT，用户/玩家可以实现购买、怒退等简单功能
+   - 创建合约来管理NFT的发行，这里我们采用ERC-1155来铸造NFT
+7. 黑客松前两日的进度：
+- day1
+  - 确定使用的技术栈：react
+  - 搭建页面的layout和静态页面的编写
+  - 使用etherjs连接钱包
+  - 创建pivot合约继承了 OpenZeppelin 的 ERC1155 标准合约，并使用了 Ownable、ERC1155Burnable 和 ERC1155Supply 扩展。
+    合约功能：
+    Pivot 合约是一个 ERC1155 标准代币合约，支持多资产代币。
+    合约有一个拥有者（owner），拥有者可以设置 URI（Uniform Resource Identifier）来引用代币元数据。
+    合约提供了创建新代币的功能（initToken），新代币可以设置价格和最大供应量。
+    用户可以购买代币（mint）并获得权益，这需要支付与代币价格相等的 ETH。购买后，代币供应量将减少，用户的余额将增加。
+    用户可以查询代币的所有权、价格和余额。
+    用户可以领取代币余额（claimUserBalance），将 ETH 转入其钱包。
+    合约还记录了每种代币的铸造者，并支持向多个用户分发奖励。
+- day2
+  - 使用etherjs连接部署至Scroll的合约
+  - 调用合约的接口（initToken，mint等）完成相应的功能
+  - 读取合约信息完善页面
+8. Demo 视频链接：https://pivot-one-video.vercel.app/
+9. 项目 github repo 链接：https://github.com/NftTopBest/pivot
+10. 该项目是本次hackathon期间，从0到1开发的项目，完全原创。
+
+
+# 32. Want3
+
+**1 项目名称：**Want3
+
+**2 所选赛道：**Public Goods
+
+**3 项目图片：**
+
+![image-20231016134052592](team-info.assets/image-20231016134052592.png)
+
+**4 简介：**
+
+Want3 是一个 public goods 工具，服务于解决 ETH 生态上的帮人代支付的问题。每个人都可以在我们平台上发布自己的愿望，并且发送分享给其他人，鼓励他们参与完成这一愿望，并且将完成愿望对证明上链，我们工具应用的场景有很多，比如 Web3 支付宝亲情付、众筹生日礼物、结婚份子钱。我们除了开发帮人代支付的工具外，着重于主播粉丝经济赛道，致力于帮助 KOL，尤其是女生主播，完成礼物清单，帮助每一位舔狗记录那些年你舔过的女孩，用财力证明谁才是真正的榜一大哥，用你的财力证明你爱她的浓度。KOL 可以把礼物清单发给自己的 followers，如果 followers 实现愿望，还可以获得 KOL 的一些福利，比如拉进群聊，或者线下的交流等。我们目前只是一个支付工具，未来我们可以朝 ETH 生态下的直播平台、Onlyfans、Friend.Tech 发展。
+
+**5 队长和队友：**
+
+队长：[Ryan🦄.eth]([RyanFcr (github.com)](https://github.com/RyanFcr))
+
+队友：
+
+- [Welles](https://github.com/CSWellesSun)
+- [Pollo](https://github.com/arespollo)
+- [李裕峰](https://github.com/licncnn)
+
+**6 本次黑客松的目标：**
+
+目标：
+
+希望做出一个好的 public goods，同时我们想尽可能让我们的工具的使用场景更有意思一点，希望大家玩起来，最后希望能够冲击一下奖项。
+
+**7 黑客松前两日的进度：**
+
+- Day1：
+  - brainstorm 我们的 idea，确定了 Idea，然后拆解了项目工程上的框架，init project
+  - 产品撰写 user journey 并且开始设计 UIUX
+  - 后端同步写基本的框架
+- Day2：
+  - 根据 UI 开始实现前端逻辑
+  - 录制 Demo
+  - Deck
+
+**8 Demo 视频链接：**
+
+https://k5ms77k0o1.feishu.cn/docx/FeLhdyhSSokVcbx6ECxcpAdBn6d?from=from_copylink
+
+**9 项目 Github Repo：**
+
+[Blockchain-zju/Want3-ETHHangzhou (github.com)](https://github.com/Blockchain-zju/Want3-ETHHangzhou)
+
+**10 声明：**
+
+项目是本次 hackathon 期间，从 0 到 1 开发的项目，完全原创。
+
+**11 Demo 链接：**
+
+Demo 暂时是本地部署，如果想体验 Demo，可以 Follow 我们项目的 Readme 进行本地部署。
+
+**12 Deck：**
+
+https://gamma.app/docs/Want3-If-you-want-it-Ill-surprise-you-0el4d90gqfpwbve
+
+# 33. Netfusion
+1. 项目名称 Netfusion
+2. 所选赛道 Public Goods
+3. 项目图片
+
+![netfusion](/img/netfusion.png)
+
+4. 简介
+
+   Netfusion 的定位是为区块链及其他分布式系统提供消息广播服务，将分布式系统的广播通信逻辑从其他业务逻辑中解耦出来。
+
+   区块链系统自上而下可以大致分为状态机层（链上数据及逻辑）、共识算法层（选择具体的区块来进行状态迁移）、P2P广播网络层（负责节点之间的广播数据传输）。为了提升区块链系统的TPS，行业中提出了各种链上链下的方案，但从P2P层进行研究和优化的却很少，并且P2P通讯网络的效率直接影响着上层逻辑的效率。
+
+   当一个节点初始化一条广播数据时，如果只向部分邻居节点转发消息，会从另外一部分的节点中收到自己向网络中广播的这条消息。我们可以通过这些反馈数据来对广播时选择的转发节点进行评估。Netfusion 即利用这个机制对广播算法进行优化。
+
+   Netfusion 为需要广播网络的分布式系统提供了十分便捷的开发支持，将服务实例化后，通过 `Feed` 方法即可向网络中广播一条消息，通过 `Take` 方法从网络中获取一条消息。在后续我们会在项目中提供更多的广播算法。
+5. 队长和队员
+
+   队长：[@trenlinhuang](https://github.com/trenlinhuang) 队友：[@JiangMoCeng](https://github.com/JiangMoCeng) [@quanquanii](https://github.com/quanquanii)
+
+6. 本项目在这次黑客松的目标
+
+   完成一个支撑P2P广播的通讯服务层组件
+7. 黑客松前两日的进度
+- Day 0: 
+  - 节点间的通讯，连接管理，一个简单的可以区分不同类型数据的通讯协议设计与实现
+  - 实现 `Gossip` 广播协议，进行两个节点的消息接收与转发测试
+  - 将 `Netfusion` 项目打包成镜像并测试
+- Day 1:
+  - 通过 `boot-server` 项目进行容器管理
+  - 镜像启动测试、连接建立测试、P2P网络广播测试
+  - 将一些参数放到配置文件中便于修改配置
+8. Demo 视频链接
+
+   https://youtu.be/ntBWEXLbUzo
+9.  项目 github repo 链接
+
+   - netfusion: https://github.com/deffusion/netfusion
+   - boot-server: https://github.com/deffusion/boot-server
+10.  声明未基于之前的项目:
+
+     该项目是本次hackathon期间，从0到1开发的项目，完全原创。
+
+# 34 Cross Chain Bridge
+
+**1 项目名称**: Cross Chain Bridge
+
+**2 所选赛道**: Public Goods
+
+**3 项目图片**:
+
+![Cross Chain Bridge](https://i.ibb.co/NYKwdLq/image.png)
+
+# 35 fungible NFT
+
+1. 项目名称 fungible NFT
+2. 所选赛道 Public Goods
+3. 项目图片 
+![2b2808f5a74e68d0caf0f6ec8e249cf5](https://github.com/black71113/ETHHangzhou/assets/147300647/acd49ebf-03aa-4073-b641-8b58b2744f0e)
+
+4. 简介 
+   NFT碎片化(NFT Fractionalization)是将一个NFT拆分成多个同等份额的过程。例如:
+	- NFTX是一个NFT碎片化平台，它可以把一个价值1 ETH的NFT拆分成10份，每份价值0.1 ETH。用户可以购买这些份额获得NFT的部分所有权。
+   利用 NFTGo 提供的可信中立的 NFT 定价方式，每个 NFT 或 trait 之间价值的比例是恒定的。因此，可以给出一种全新的碎片化方式，从而将同一个collection 的所有 NFT 聚集到同一个池子中。每个 collection 的 ERC20 token 能够唯一地代表这个 NFT collection。
+  比如，BAYC 中
+
+  - 稀有 NFT #7403 当前价格是 104.4 eth ，抵押其可以兑换成 1044 xbayc
+  - 普通 NFT #1001 当前价格是 25.5 eth ，抵押其可以兑换成 255 xbayc
+
+  当 BAYC 的地板价从 25 eth 变为 12.5 eth 时，1 xbayc 从 0.1 eth 变为 0.05 eth。
+5. 队长和队员
+   队长：Black
+   队员：Ziyao
+   队员：Yusen
+6. 本项目在这次黑客松的目标
+1、将ECR721 token碎片化为ERC20 token
+2、利用NFTgo定价API来完成ECR721 token的定价
+3、完成合约开发
+7. 黑客松前两日的进度
+D1
+- 完成组队，讨论目标
+
+# 36. iStone
+
+**1 项目名称**: iStone
+
+**2 所选赛道**: Social
+
+**3 项目图片**:
+
+等待补充
+
+<!-- ![foundry](https://book.getfoundry.sh/images/foundry-banner.png) -->
+
+**4 简介**:
+
+iStone 是一个基于区块链的跨链交流聚合协议，解决不同网络的信息孤岛问题！通过 iStone 你可以使用自己喜欢的公链永久记录你的作品；其他人也可以使用他们喜欢的公链对你的信息进行点评和互动。虽然我们使用不同的公链（Bitcoin network/Ethereum network/BSC/Optimism/Arbitrum/Solana/Sui ...），但这并影响我们在一起愉快的交流。
+
+iStone 有委托发布功能
+
+- 你可以授权指定地址作为代理发布人，由他代表你发表媒体信息。（类似 ERC20 的授权转账）
+- 你可以通过支付报酬和签名给代发服务。由代发服务帮助你发布。（类似 离线签名 + 广播交易）
+- 你可以通过支付报酬和签名给代发不误。发表至其他网络。
+  - 比如你在 ETH 网络 支付 USDT 和签名，将内容发布到 Bitcoin 网络。
+
+**5 队长和队员**:
+
+队长: [@Anban Chu](https://github.com/anbang) （独自完成设计，前端，后端，合约的开发）
+
+**6 本项目在这次黑客松的目标:**
+
+目标：完成基于 EVM 网络的跨链交流。完成委托发布功能。
+
+**7 黑客松进度**
+
+- Day 1:
+  - 完成仓库搭建新建：
+    - 前端: https://github.com/anbang/frontend-istone
+    - 后端: https://github.com/anbang/backend-istone
+    - 合约: https://github.com/anbang/contract-istone
+  - 细化任务：
+    1. 合约: 需要保证设计和代码完成。
+       1. 单元测试完成核心逻辑可以。
+       2. 覆盖测试，覆盖核心即可。
+    2. 前端: 完成架构搭建，钱包连接，核心静态页面。
+    3. 后端: 完成架构搭建，表结构完成，API 的结构定义。
+- Day 2:
+  - 合约: 完成最初版本。
+  - 前端: 核心交互功能。
+  - 后端: 完成核心功能。
+- Day3:
+  - 整体连调
+  - 买域名作为演示和后端 API
+  - 买服务器运行服务
+  - 为演示坐最终准备
+
+**8 视频链接:** 无
+
+**9 项目 github repo 链接:**
+
+- 前端: https://github.com/anbang/frontend-istone
+- 后端: https://github.com/anbang/backend-istone
+- 合约: https://github.com/anbang/contract-istone
+
+**10 是否基于之前的项目:**
+
+该项目是本次 hackathon 期间，从 0 到 1 开发的项目，完全原创。
+
+**11 项目 Demo 链接（选填）:**
+
+https://istone.anbang.blog/
+
+# 37. PartyBet
+1. 项目名称: PartyBet
+2. 所选赛道: Layer2 Application
+3. 项目图片: (https://github.com/lessthanno/partybet/blob/main/public/img1.jpg)
+4. 简介
+  Partybet是一个 telegram群组内的竞猜拼手气红包 bot。它包含两种玩法：
+  1.去中心化的 telegram 群拼手气红包。好友们在群内竞猜下一个整点的BTC价格，每人提交 0.008eth 作为赌注，整点到时，最接近实际价格的人获得奖池内所有eth 奖励（若出现平手，则平分奖池）。
+  2.瓜分大奖池拼手气红包。所有人可提交 0.008eth 作为赌注进入项目大奖池，整点到时，最接近的人赢得奖池内所有 eth 奖励（若出现平手，则平分奖池）。
+
+  项目特色：
+  1.借助 telegram 群和 bot交互，用户进入门槛低，可实现裂变式增长；
+  2.竞猜机制公平公正，也富有参与感，可上瘾有粘性；
+  3.参与资金门槛低、回报潜力高，web2 和 web3 用户都可以体验，高流动性为 web3破圈增长。
+  4.机制本身有很强的延展潜力，可以成为社群服务工具、项目营销利器、叠加代币经济学成为去中心化交易所等等。
+
+5. 队长和队员
+  队长: [@haozi](https://github.com/lessthanno)
+  队友：[@chinesemark](https://github.com/chinesemark)  [@Simon C](https://github.com/zhongyusimon)
+
+6. 本项目在这次黑客松的目标
+  - 完成通过telegramBot，让用户实现更简单更快速的交易体验，以游戏娱乐化的方式，让用户体验到交易的乐趣，同时尝试解决流动性问题
+  - 细化任务：
+    1.确定技术方向，采用UXUYProtocl协议实现一个tgBot基础能力。
+    2.配置partyBot机器人
+    3.开发/betting功能，实现用户输入BTC的价格的竞猜输入
+    4.设计开奖结果机制
+    5.设计数据库，记录开奖记录
+    6.设计合约的实现逻辑
+    7.实现群功能，tg群里能支持多人下注
+    8.用户下注充值ETH前端页面
+
+7. 黑客松前两日的进度
+  - Day1
+    [x] 完成partyBot合约交互，接口优化设计
+    [x] 合约加入日志,支持用户可以查看下注历史和全部历史
+  - Day2
+    [x] tg用户通过PartyBot实现下注功能
+    [x] 到指定时间实现开奖功能提示，bot交互界面开发
+    [x] 完成bot机器人基础信息配置
+  - Day3
+    [x] Showcase
+
+8. Demo 视频链接（可以是录屏或其他形式）[Youtube](https://youtu.be/EDzqivO4rlM?si=uopK32tzS_qAbEdQ)
+9. 项目 github repo 链接(https://github.com/lessthanno/partybet)
+10. 该项目是本次hackathon期间，从0到1开发的项目，完全原创。
+11. 项目 Demo 链接 (https://t.me/partybet_bot)
+
+# 38. Abstract AA Wallet
+1. 项目名称: 基于去中心化AI Agent实现需求抽象的账户抽象钱包
+2. 所选赛道：Layer2 Application
+3. 项目图片
+  ![image](https://github.com/eth-hangzhou/ETHHangzhou/assets/110052573/eca778ab-419b-446d-ae5a-b692eae28c29)
+4. 简介: 我们的账户抽象钱包利用去中心化的人工智能网络和可验证技术，将目前的意图中心（intent-centric）进一步升级为需求抽象，实现直接以用户的需求为单位，直接获取和满足用户需求的下一代Web3交互方式。用户只需要表明自己的crypto交易和Web3交互等需求，我们的钱包会利用AI的智能分析和Web3的互联互通，为用户生成满足其需求的最佳解决方案，并且自动操作和运行所有所需步骤来实现该方案，让用户可直接获得所需的功能和服务来轻松满足自己的需求。这样我们可以更好更快地满足用户的crypto需求，带来更直接、自然、和有效率的用户体验，降低用户在链上交易和Web3交互的门槛和难度，让更多人可以更轻松方便地使用Web3和区块链。
+5. 队长和队员：
+队长：Jel Yin
+队员：Sevclub、Justin
+6. 本项目在这次黑客松的目标：开发一个去中心化自动交易的用例。用户无需自己部署交易机器人或者使用中心化的自动交易工具平台，只需提出自己的自动交易需求，我们的去中心化AI Agent网络即可生成对应的自动交易方案，用户授权确认后即可自动运行并且达成交易，直接满足用户的交易需求，交易结果透明可信可验证。
+7. 黑客松前两日的进度：
+Day1: 头脑风暴，产品设计
+Day2: 技术开发
+Day3: 技术开发和测试
+8. Demo 视频链接（可以是录屏或其他形式），可以选择的视频平台：https://youtu.be/oP_RNv96L64
+9. 声明未基于之前的项目：该项目是本次hackathon期间，从0到1开发的项目，完全原创
+10. 项目 Demo 链接：https://sw-dev.web3-idea.xyz/
+11. 使用到了以下哪些合作方的产品/功能：Scroll, Zan, Chainlink, 4everland, AWS
+
+# 39. Artemis
+
+**1 项目名称**: Artemis (trading tg bot)
+
+**2 所选赛道**: Public Goods
+
+**3 项目图片**:
+
+![Artemis](https://cdn.discordapp.com/attachments/1111544309859237908/1162945239267426304/latest.png?ex=653dc827&is=652b5327&hm=96a0842deb58676ac36bf99bd708d8b645e06397c96a8b685ab52b617b1fd965&)
+
+**4 简介**: 
+
+链上有很多像pepe这样的alpha机会，但也是一个门槛较高，且充满危险的黑暗森林（比如貔貅盘、三明治攻击）。  
+
+tg bot是一种有趣的尝试，融合了交易与钱包，让用户在telegram中就能便捷地去参与链上交易。  
+但目前出现的tg bot们有极大的风险：项目方会将用户私钥上传到服务器，并可以直接接触和操作私钥。换言之，项目方随时可以卷走用户的所有资产。  
+
+Artemis希望在坚持“**私钥完全本地存储、且只由用户掌握**”的前提下，同样实现限价单等复杂交易场景。  
+
+此外，Artemis选择了用有**用户界面的telegram web app**来实现tg bot，而非是传统的消息对话式交互，让交易操作更直观、易用。  
+
+总之，Artemis是一个**安全、易用的trading tg bot**，让更多用户可以安全、轻松地进行链上交易，为massive adaption降低门槛。  
+
+**5 队长和队员**: 
+
+队长: [@potatooo](https://github.com/llgoody)   队友：[@jack](https://github.com/jack23615)    [@baiyang](https://github.com/baiyang1994)    [@zys](https://github.com/zhangyongshuai123)
+
+**6 本项目在这次黑客松的目标:**
+
+1. 通过telegram web app实现有用户界面的tg bot（参考telegram bot官方文档）。
+2. 实现tg bot内的私钥加密、签名及本地存储（参考Metamask开源代码）。
+3. 实现ETH对ERC20 Token的市价、限价买卖。
+   1. 使用uniswap v2的流动性。
+   2. 限价买卖方案基于permit2实现，无需用户提供私钥。
+
+**7 黑客松前两日的进度**  
+
+- Day 0:
+  - [x] 完成组队，GitHub org&repo 的新建：https://github.com/orgs/amazingtgbot/repositories
+  - [x] 细化方案&任务分工：
+    1. potatooo 负责交互及界面设计。
+    2. zys 负责搭建telegram web app，实现前端交互及界面。
+    3. zys+baiyang 负责tg bot内的私钥加密、签名及本地存储。
+    4. jack 负责市价买卖的合约交互，包括anti-MEV。
+    5. jack 负责限价单合约的实现及交互。
+    6. baiyang 负责限价单监听服务的搭建。
+    7. 提供token合约的安全信息（goplus API接入）。
+    8. 其他细节优化。主要包括智能滑点、gas设置等。
+- Day 1:
+  - [x] 完成任务1.
+  - [x] 完成任务3、4的主要部分，跑通无界面的市价交易流程。
+- Day 2:
+  - [x] 完成所有开发。
+  - [x] 完成联调。
+  - [x] 完成 team info 以及视频录制等。
+
+**8 视频链接:**  
+
+https://youtu.be/nrTygAL2O3c
+
+**9 项目 github repo 链接:**  
+
+所有代码都在  
+
+https://github.com/amazingtgbot/tradingbot
+
+**10 是否基于之前的项目:**  
+
+该项目是本次hackathon期间，从0到1开发的项目，完全原创。
+
+**11 项目 Demo 链接（选填）:**  
+
+@zys_1366_bot   （telegram搜这个bot。部署在goerli测试网。）
+
+
+# 40. Dice gambling game based on ZK-proof
+
+## 项目简介
+
+ 赌博玩家常常会怀疑赌场是否会在幕后控制骰子点数以实现不公平的盈利。而无论是在现实还是影视场景中，暗中改变骰子点数的行为往往出现在玩家下注之后、结算结果之前。本项目旨在采用zk-proof的方法，使得玩家可以在下注后向合约发送证明，从而验证点数是否发生了改变，同时不向对方暴露自己的点数。
+
+
+
+### 仓库简介：
+
+仓库地址：https://github.com/DankFang/Dice-gambling-game-based-on-ZK-proof
+
+
+
+
+
+### 黑客松前两日的进度：
+
+第一天：理清了zkp在本场景中链下生成proof、链上验证结果的整个流程；
+
+第二天：完成了骰子比大小转账合约和zkp验证合约的开发，进行了部分前端的开发。
+
+
+
+
+
+
+
+Demo视频链接：https://www.bilibili.com/video/BV1Hp4y1u76P/
