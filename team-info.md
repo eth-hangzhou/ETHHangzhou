@@ -51,8 +51,9 @@ SpotLive通过用户在地点的打卡构成活动地标（SBT）。参与者上
             * metamask钱包作为操作对象
         + 后端方案设计
             * 使用golang作为后端开发语言，提供rest等接口
-            * 调用ipfs/filecoin接口完成文件上传
+            * 调用4everland的ipfs接口完成文件上传
             * 使用openai接口完成数据embeding与接口调用问题(借助于[开源项目](https://github.com/mayooear/gpt4-pdf-chatbot-langchain))
+            * 使用chainlink 更新资产价格
         + 合约方案设计
             * ERC721作为NFT的标准,作为活动凭证
             * 部署在goerli和sepolia测试网上，测试与验证
