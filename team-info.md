@@ -51,7 +51,6 @@ Zero Knowledge
 
 # 6.本项目在这次黑客松的目标
 制作本游戏在科幻开放世界故事下的**开垦部分**
-  
 
 
 
@@ -59,7 +58,8 @@ Zero Knowledge
 
 ## 7.1 第一天
 ### 技术
-- 修复了 Dojo-Strak 官方的版本冲突问题 并决定使用 `Dojo v0.3.0-rc9`作为基准框架 并设计了基础的组件 （`Coompent` ）
+- 修复了 [Dojo-Starter](https://github.com/dojoengine/dojo-starter/pull/23) 官方的版本冲突问题
+  并决定使用 `Dojo v0.3.0-rc9`作为基准框架 并设计了基础的组件 （`Coompent` ）
 
 ### 产品
 - 尝试进行游戏架空故事背景的策划
