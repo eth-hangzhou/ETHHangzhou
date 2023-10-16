@@ -272,6 +272,8 @@ A union is composed of individuals with various skills in flexible employment, a
 
 ### Demo Link
 
+[View our demo here](https://github.com/BazingaJack/SonarMeta-video-ethhz)
+
 ### Github repo
     
 Frontend: https://github.com/SonarX-Team/sonarmeta-v4-next
