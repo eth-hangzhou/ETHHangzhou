@@ -33,6 +33,7 @@
 - Day 1:编写演示前后端
 
 **8 视频链接**
+[点击这里观看视频](https://www.youtube.com/watch?v=GcKP-ao5HUQ)
 
 **9 项目 github repo 链接**
 所有代码都在
