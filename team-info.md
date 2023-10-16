@@ -24,3 +24,22 @@ ETH Hangzhou Hackathon 的项目需要提交到本页，PR（Pull-Request）截�
 进入Demo Day的每个项目有 5 分钟展示时间。
 
 ❗❗❗项目提交PR示例详见：https://github.com/eth-hangzhou/ETHHangzhou/pull/6
+
+
+
+
+# PoS Planet
+
+## 
+
+
+## 前两日目标
+
+### 第一天
+修复了 Dojo-Strak 官方的版本冲突问题 并决定使用 `Dojo v0.3.0-rc9`作为基准框架 并设计了基础的组件 （`Coompent` ）
+
+### 第二天
+编写游戏逻辑 ( `System ` ) 编写
+
+
+
