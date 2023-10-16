@@ -3,11 +3,11 @@
 ETH Hangzhou Hackathon 的项目需要提交到本页，PR（Pull-Request）截止时间为 2023年10月16日 下午14:00（北京时间，UTC+8）。你需要在你的项目下更新以下内容:
 ## 项目名称
 
-💰**WeiWallet**
+💰**WeiWallet**（多签钱包）
 
 ## 所选赛道（Public Goods，Layer2 Application，Zero Knowledge 主赛道三选一）
 
-Public Goods（多签钱包）
+Public Goods
 
 ## 项目图片（1张有代表性的图片，不要过长）
 
