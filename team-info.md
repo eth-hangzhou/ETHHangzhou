@@ -70,6 +70,8 @@ p对于非白名单的lp对应该为（0.6～0.9）
 
 **8 视频链接**：
 https://www.bilibili.com/video/BV1xy4y1N7wS/?spm_id_from=333.999.0.0&vd_source=9518fd55781e9b29aea5cf5115e97ecc
+
+连上
 https://www.bilibili.com/video/BV1W841167aY/?vd_source=9518fd55781e9b29aea5cf5115e97ecc
 
 
@@ -85,3 +87,14 @@ https://www.bilibili.com/video/BV1W841167aY/?vd_source=9518fd55781e9b29aea5cf511
 该项目是本次Hackthon期间，从0到1开发的项目，完全原创。
 
 **11 项目Demo链接（选填）**：
+主要交互合约
+data
+0xB29D39A0183B455B5A1A38C8a709c425aEc019b6
+defilogic（amm and borrow）
+0x7eb685959Be5ED0194ef7194044537A421b25eda
+token
+0x502b4D3BeE371F415f13268d41032A07284861Be
+token
+0x349660Db042c78F0313F42F0b9B980a98D91C83c
+data detail
+0xC87d70c755599eeae10bA8A9413ed326DeE9BB85
