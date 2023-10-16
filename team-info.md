@@ -1,26 +1,69 @@
-# ETH Hangzhou Hackathon 项目提交说明
+# AI-based Smart Contract Explorer
 
-ETH Hangzhou Hackathon 的项目需要提交到本页，PR（Pull-Request）截止时间为 2023年10月16日 下午14:00（北京时间，UTC+8）。你需要在你的项目下更新以下内容:
-1. 项目名称
-2. 所选赛道（Public Goods，Layer2 Application，Zero Knowledge 主赛道三选一）
-3. 项目图片（1张有代表性的图片，不要过长）
-4. 简介
-5. 队长和队员
-6. 本项目在这次黑客松的目标
-7. 黑客松前两日的进度
-8. Demo 视频链接（可以是录屏或其他形式），可以选择的视频平台：[Youtube](https://youtube.com)，[Bilibili](https://bilibili.com)，[Loom](https://www.loom.com/)，视频长度不能超过3分钟，否则扣分。
-9. 项目 github repo 链接
-10. 声明未基于之前的项目, 如: 该项目是本次hackathon期间，从0到1开发的项目，完全原创。
-11. 项目 Demo 链接（选填）
+**1 项目名称：**
 
-在截止时间前提交 PR，且包含前 10 项信息的项目，视为提交成功，否则不参与评奖。
+AI-based Smart Contract Explorer
 
-评委将在2023年10月16日下午14-18点期间，根据以下4个维度对项目进行第一轮打分，每个赛道的前5名可以参加晚上19点的Demo Day：
-1. 代码 🧱
-2. 创新性 💡
-3. Demo完整度 📝
-4. 对以太坊生态的重要性 ♻️
+**2 所选赛道：** 
 
-进入Demo Day的每个项目有 5 分钟展示时间。
+公共物品 （Public Goods）
 
-❗❗❗项目提交PR示例详见：https://github.com/eth-hangzhou/ETHHangzhou/pull/6
+**3 项目图片：**
+
+![avatar](img/Team37_Architecture.png)
+
+
+
+**4 简介：**
+
+AI-based Smart Contract Explorer 是一个 基于向量数据库和 LLM 进行 ETH 智能合约代码检索的浏览器，搜索结果包含智能合约原文、出处、代码解析等多维度内容。向量数据库技术是人工智能应用中的一项重要技术，通过 ANN 最似近邻算法，我们可以通过自然语言进行联想式搜索，而非传统的关键字搜索。立项起因是传统搜索代码的浏览器，例如 Etherscan，仅能搜索出原始代码。我们希望通过 AI 赋能，建立关于智能合约代码的全维度搜索，让合约开发者的效率指数倍增。
+
+**5 队长和队员：**
+
+队长：Keighteen777
+
+队友：Taki WANG
+
+**6 本项目在这次黑客松的目标:**
+
+搭建项目雏形，打通数据流，进行关键代码的提交和小规模数据量的功能完成展示。例如: 输入find all the smart contracts about DID ,能够返回对应语义的代码数据。
+
+**7 黑客松前两日的进度**
+
+| Day0: |      |                                                              |
+| ----- | ---- | ------------------------------------------------------------ |
+|       |      | 完成组队 & 新建repo：<br />https://github.com/NonceGeek/ai-based-smart-contract-explorer<br />https://github.com/NonceGeek/movespace_db_uploader_cli |
+|       |      | 任务梳理：                                                   |
+|       |      | 1. **数据同步：**通过 Syncer同步全链上智能合约代码。         |
+|       |      | 2. **代码解析：**通过Semantics Analyser将代码按语义解析归类。 |
+|       |      | 3. **数据存储：**将解析过的合约代码数据存入向量数据库集群。  |
+|       |      | 4. **CLI 工具：**提供 CLI 工具实现 1、2、3功能。             |
+|       |      | 5. **提供服务API:** 梳理功能，建立对应的内外部 API。         |
+|       |      | 6. **前端页面：**绘制前端页面，并联调接口。                  |
+|       |      | 7. **治理合约：**完成关键治理合约。                          |
+|       |      | 8. **线上部署：**将合约部署至 Mumbai 网络，将 App 部署至 Vercel。 |
+| Day1: |      | 完成3、4，完成基础 6。                                       |
+|       |      | 完成7，升级 6。                                              |
+|       |      | 完成 8。                                                     |
+|       |      | 完成 team info 以及Demo视频录制等。                          |
+
+**8 视频链接:**
+
+Todo
+
+**9 项目 github repo 链接:**
+
+https://github.com/NonceGeek/ai-based-smart-contract-explorer
+
+https://github.com/NonceGeek/movespace_db_uploader_cli
+
+**10 是否基于之前的项目:**
+
+该项目是本次 hackathon 期间，从0到1开发的项目，完全原创。
+
+**11 项目demo:** 
+
+> https://smart-contract-explorer.movespace.xyz/
+
+
+
