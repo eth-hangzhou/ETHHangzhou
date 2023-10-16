@@ -35,13 +35,16 @@ ETH Hangzhou Hackathon 的项目需要提交到本页，PR（Pull-Request）截�
 
 **3 项目图片**:
 
+![pic1](img/mod6551_ui.jpg)
+
+![pic2](img/mod6551_design.jpg)
 
 **4 简介**: 
 
 ERC6551 是一个让人兴奋的协议，它让任何 NFT 可以作为一个钱包。从钱包的角度讲，我们终于可以有一个固定的钱包地址，并且私钥则可以经常更新，以保证资产安全。
 
 但是，6551 和 AA 一样，需要每个用户部署一个合约，带来两个问题 1. 用户需要支付昂贵的 gas 2. 链上状态爆炸。
-我们正在设计建设的以太坊兼容 L1 BitPoW 公链的重要目标，确实可以在不牺牲安全和去中心化的条件下，把 gas 降低到几乎为0，同时，我们也必须抑制状态爆炸！因为节点的膨胀会导致区块链的中心化。
+我们正在设计建设的以太坊兼容 L1 BitPoW 公链的重要目标，必须抑制状态爆炸！（私货：gas我们可以超级便宜，不是问题）因为节点的膨胀会导致区块链的中心化。
 所以我们选择魔改 ERC6551 来实现我们的目标，在新的 L1 和大量 L2 上，我们完全有条件部署升级版本的 ERC20，避免每个用户部署一个新的智能合约。
 
 **5 队长和队员**: 
@@ -51,10 +54,22 @@ ERC6551 是一个让人兴奋的协议，它让任何 NFT 可以作为一个钱�
 **6 本项目在这次黑客松的目标:**
 
 目标：
-1. 修改 ERC20 数据结构，能够使 balances 和 allowed 能够支持 tokenid。
+1. 修改 ERC20 数据结构，能够使 balances 和 allowed 能够支持 tokenid：
     ```solidity
     mapping (address => mapping (uint256 => uint256)) public balances;
     mapping (address => mapping (uint256 => mapping (address => mapping (uint256 => uint256)))) public allowed;
+    ```
+
+    同时重载方法，支持 tokenid：
+    ```solidity
+    function balanceOf(address _owner) external view returns (uint256 balance);
+    function balanceOf(address _owner, uint256 _from_tokenid) external view returns (uint256 balance);
+
+    function transfer(address _to, uint256 _value) external returns (bool success);
+    function transfer(address _to, uint256 _value, uint256 _from_tokenid, uint256 _to_tokenid) external returns (bool success);
+
+    function transferFrom(address _from, address _to, uint256 _value) external returns (bool success);
+    function transferFrom(address _from, address _to, uint256 _value, uint256 _from_tokenid, uint256 _to_tokenid) external returns (bool success);
     ```
 
 2. 本地快速合约测试脚本，用于测试驱动开发。
