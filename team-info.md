@@ -27,7 +27,9 @@ LuckyFT 使用了 ChainLink 的 VRF 功能来产生随机数，部署到 sepolia
 **7 黑客松前两日的进度**
 - Day 0:
   - [x] GitHub fork scaffold eth 2：https://github.com/HelloRWA/eth-hangzhou
-  - [x] 细化任务：
+  - [x] 学习 chainLink 及 scroll 相关知识
+- Day 1: 实现具体功能
+ 
 1. 用户首先得 createFT，持有一个 FT 后，才可以买别人的 key
 2. 买 key 时，支付 price 费用，是 `buy` 方法，里面会触发 chainlink 的 requestRandomWords 方法，同时给用户发 key
 3. chainlink 的 VRF 回调 fulfillRandomWords时，则会根据获得的随机数来决定运气分配
