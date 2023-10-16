@@ -39,7 +39,7 @@ ETH Hangzhou Hackathon 的项目需要提交到本页，PR（Pull-Request）截�
 7. 黑客松前两日的进度: 
     - D1: 头脑风暴，丰富 GasGift 协议架构，尝试最小化产品合约，搭建前端架构。
     - D2: 完善并部署合约，完善前端进行合约交互，实现MVP。
-8. Demo Vedio: [GasGift Reimbursement Protocol Youtube](http://demo-link.com)
+8. Demo Vedio: [GasGift Reimbursement Protocol Youtube](https://youtu.be/qSxtGkCf038)
 9. Github:
     - 合约: [Contract Repo](https://github.com/chiguayeshao/Gas-Reimbursement-Contract)
     - 前端: [Frontend Repo](https://github.com/chiguayeshao/gas-reimbursement-platform)
