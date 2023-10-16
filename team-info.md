@@ -49,7 +49,7 @@ AI-based Smart Contract Explorer 是一个 基于向量数据库和 LLM 进行 E
 
 **8 视频链接:**
 
-Todo
+https://youtu.be/zeY9lp2Hcwo
 
 **9 项目 github repo 链接:**
 
