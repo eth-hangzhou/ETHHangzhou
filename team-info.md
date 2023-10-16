@@ -52,10 +52,8 @@ ETH Hangzhou Hackathon 的项目需要提交到本页，PR（Pull-Request）截�
 
     第二天进度 : 完成借贷合约和CCIP通信合约，合约测试与部署，前后端对接。
 
-8. Demo 视频链接 : 
+8. Demo 视频链接 : https://www.youtube.com/watch?v=kEdann3D79M
     
-
-
 9. 项目 github repo 链接
 
     合约 : https://github.com/xiaoyuanxun/StellarX
