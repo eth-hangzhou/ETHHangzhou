@@ -38,7 +38,10 @@ ETH Hangzhou Hackathon 的项目需要提交到本页，PR（Pull-Request）截�
 Zero Knowledge 
 
 # 3.项目图片
-![IMG_6677 2](https://github.com/yanboishere/ETHHangzhou/assets/76860915/3c44fa5f-6ee9-466c-a72d-4938dd8e8589)
+
+<div align="center">
+  <img  src="https://github.com/yanboishere/ETHHangzhou/assets/76860915/3c44fa5f-6ee9-466c-a72d-4938dd8e8589" width="50%" height="50%">
+</div>
 
 # 4. 简介
 
