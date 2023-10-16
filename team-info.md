@@ -37,7 +37,7 @@ WebApp后端功能开发（与合约交互的相关逻辑）
 
 前端页面开发，界面优化
 8. Demo 视频链接（可以是录屏或其他形式），可以选择的视频平台：[Youtube](https://youtube.com)，[Bilibili](https://bilibili.com)，[Loom](https://www.loom.com/)，视频长度不能超过3分钟，否则扣分。
-
+https://youtu.be/hF7zx0esOCk
 9. 项目 github repo 链接
 https://github.com/gitruili/Pocket-web
 https://github.com/Insomnia501/Pocket-sol
