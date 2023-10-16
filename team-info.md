@@ -826,3 +826,65 @@ https://github.com/orgs/Sparky-Technology/repositories
 
 http://47.94.103.61:8080/
 
+
+# 14. POS Planet
+## 1.项目名称
+
+<h1 align="center">
+  <span style="font-size: 32px;">PoS Planet</span>
+</h1>
+
+## 2.赛道
+Zero Knowledge 
+
+## 3.项目图片
+
+<div align="center">
+  <img  src="https://github.com/yanboishere/ETHHangzhou/assets/76860915/3c44fa5f-6ee9-466c-a72d-4938dd8e8589" width="50%" height="50%">
+</div>
+
+## 4. 简介
+
+基于 Starknet Dojo 开发的科幻开放世界全链游戏
+
+## 5. 队员 
+- 王首豪 Cairo/Dojo 工程师
+- 烟波 产品/游戏/宣发/运营
+- 黄志羿 数值策划/UI
+
+## 6.本项目在这次黑客松的目标
+制作本游戏在科幻开放世界故事下的**开垦部分**
+
+
+
+## 7.前两日进度
+
+## 7.1 第一天
+
+
+- 修复了 [Dojo-Starter](https://github.com/dojoengine/dojo-starter/pull/23) 官方的版本冲突问题
+  并决定使用 `Dojo v0.3.0-rc9`作为基准框架 并设计了基础的组件 （`Coompent` ）
+- 尝试进行游戏架空故事背景的策划
+- 进行游戏主要UI/UX的初步设计
+
+## 7.2 第二天
+
+- 编写游戏逻辑 ( `System ` ) 及其单元测试
+- 本地测试网部署 与集成测试
+- 游戏代币经济学设计
+- 进行游戏玩法底层的概率系数的数值策划
+
+## 8.Demo 视频链接
+
+[YouTube](https://youtu.be/prXKLsrFgsM)
+
+
+## 9.GitHub repo
+
+[PoS Planet](https://github.com/Web3-Club/PoS-Planet)
+
+## 10.原创声明
+
+该项目是本次hackathon期间，从0到1开发的项目，**完全原创**。
+
+
