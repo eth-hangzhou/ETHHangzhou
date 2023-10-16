@@ -41,6 +41,7 @@ D2
     - 构思宠物救助站、DAO组织想法思路
 
 **8 视频链接:**
+PDF: https://gamma.app/public/AI-Social-Pet-2fogjtm0f0123je
 
 Todo
 
