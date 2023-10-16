@@ -57,26 +57,18 @@ Zero Knowledge
 # 7.前两日进度
 
 ## 7.1 第一天
-### 技术
+
+
 - 修复了 [Dojo-Starter](https://github.com/dojoengine/dojo-starter/pull/23) 官方的版本冲突问题
   并决定使用 `Dojo v0.3.0-rc9`作为基准框架 并设计了基础的组件 （`Coompent` ）
-
-### 产品
 - 尝试进行游戏架空故事背景的策划
-
-### 设计
 - 进行游戏主要UI/UX的初步设计
 
 ## 7.2 第二天
-### 技术
+
 - 编写游戏逻辑 ( `System ` ) 及其单元测试
-
 - 本地测试网部署 与集成测试
-
-### 产品
 - 游戏代币经济学设计
-
-### 设计
 - 进行游戏玩法底层的概率系数的数值策划
 
 # 8.Demo 视频链接
@@ -85,9 +77,11 @@ Zero Knowledge
 
 
 # 9.GitHub repo
+
 [PoS Planet](https://github.com/Web3-Club/PoS-Planet)
 
 # 10.原创声明
+
 该项目是本次hackathon期间，从0到1开发的项目，**完全原创**。
 
 
