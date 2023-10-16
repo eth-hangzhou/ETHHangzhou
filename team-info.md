@@ -51,18 +51,20 @@ ERC6551 是一个让人兴奋的协议，它让任何 NFT 可以作为一个钱�
 **6 本项目在这次黑客松的目标:**
 
 目标：
-1. 修改 Foundry，能够在使用 Foundry 模版的 solidity 项目中的 test 中使用新增的几个 cheatcode。cheatcode 能够按照参数要求返回所有 storage slots 相关的信息。
+1. 修改 ERC20 数据结构，能够使 balances 和 allowed 能够支持 tokenid。
     ```solidity
-    function startMappingRecording() external;
-    function getMappingLength(address target, bytes32 slot) external returns (uint);
-    function getMappingSlotAt(address target, bytes32 slot, uint256 idx) external returns (bytes32);
-    function getMappingKeyOf(address target, bytes32 slot) external returns (uint);
-    function getMappingParentOf(address target, bytes32 slot) external returns (bytes32);
+    mapping (address => mapping (uint256 => uint256)) public balances;
+    mapping (address => mapping (uint256 => mapping (address => mapping (uint256 => uint256)))) public allowed;
     ```
-2. 新建一个合约本地测试 toolkit，用于简化和合约交互的命令。
-   1. 用可以读取其他任意语言生成的 abi，并发送合约，测试结果
-   2. 强类型语言，但在编写过程中可以有更简易的类型转换
-   3. 并根据合约 abi 的 Json 文件自动化转换输入命令的参数。
+
+2. 本地快速合约测试脚本，用于测试驱动开发。
+
+    https://github.com/kernel1983/mod6551/blob/main/scripts/mod6551.py
+    ```bash
+    brownie run mod6551 --network hardhat
+    ```
+
+   
 
 **7 黑客松前两日的进度**
 - Day 0:
