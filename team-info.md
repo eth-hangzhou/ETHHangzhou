@@ -1,26 +1,50 @@
-# ETH Hangzhou Hackathon 项目提交说明
+# LuckyFT
 
-ETH Hangzhou Hackathon 的项目需要提交到本页，PR（Pull-Request）截止时间为 2023年10月16日 下午14:00（北京时间，UTC+8）。你需要在你的项目下更新以下内容:
-1. 项目名称
-2. 所选赛道（Public Goods，Layer2 Application，Zero Knowledge 主赛道三选一）
-3. 项目图片（1张有代表性的图片，不要过长）
-4. 简介
-5. 队长和队员
-6. 本项目在这次黑客松的目标
-7. 黑客松前两日的进度
-8. Demo 视频链接（可以是录屏或其他形式），可以选择的视频平台：[Youtube](https://youtube.com)，[Bilibili](https://bilibili.com)，[Loom](https://www.loom.com/)，视频长度不能超过3分钟，否则扣分。
-9. 项目 github repo 链接
-10. 声明未基于之前的项目, 如: 该项目是本次hackathon期间，从0到1开发的项目，完全原创。
-11. 项目 Demo 链接（选填）
+**1 项目名称**: LuckyFT
 
-在截止时间前提交 PR，且包含前 10 项信息的项目，视为提交成功，否则不参与评奖。
+**2 所选赛道**: Layer2 创新应用
 
-评委将在2023年10月16日下午14-18点期间，根据以下4个维度对项目进行第一轮打分，每个赛道的前5名可以参加晚上19点的Demo Day：
-1. 代码 🧱
-2. 创新性 💡
-3. Demo完整度 📝
-4. 对以太坊生态的重要性 ♻️
+**3 项目图片**:
 
-进入Demo Day的每个项目有 5 分钟展示时间。
+![LuckyFT](https://luckyft.vercel.app/lucky-ft.jpg)
 
-❗❗❗项目提交PR示例详见：https://github.com/eth-hangzhou/ETHHangzhou/pull/6
+**4 简介**: 
+
+项目基于 Scaffold ETH 2 开源框架基础上开发的。
+最近 Friend.Tech 比较火，但是他就纯庞氏了，靠拉人头来赚手续费或者 key 涨价，早卖的人赚钱，最后跑路的人血亏。
+LuckyFT 则考虑引入“运气” 来改变这个庞氏的逻辑。一切的一切都是运气！
+
+**5 队长和队员**: 
+
+Solo 黑客： Stark: https://twitter.com/StarkEVM99
+
+**6 本项目在这次黑客松的目标:**
+
+目标：做个好运 FT
+
+LuckyFT 使用了 ChainLink 的 VRF 功能来产生随机数，部署到 sepolia 和 scrollSepolia
+
+**7 黑客松前两日的进度**
+- Day 0:
+  - [x] GitHub fork scaffold eth 2：https://github.com/HelloRWA/eth-hangzhou
+  - [x] 细化任务：
+1. 用户首先得 createFT，持有一个 FT 后，才可以买别人的 key
+2. 买 key 时，支付 price 费用，是 `buy` 方法，里面会触发 chainlink 的 requestRandomWords 方法，同时给用户发 key
+3. chainlink 的 VRF 回调 fulfillRandomWords时，则会根据获得的随机数来决定运气分配
+4. 同个房的某个人有好运获得 10% 的分成
+5. 其他某个好运房的房主获得 10% 的分成
+6. 上面好运房的某个key 持有者有好运获得 10% 的分成
+
+**8 视频链接:**
+https://www.bilibili.com/video/BV1LT411x72Q/
+
+**9 项目 github repo 链接:**
+所有代码都在
+https://github.com/HelloRWA/eth-hangzhou/pull/1
+
+**10 是否基于之前的项目:**
+该项目是本次hackathon期间，从0到1开发的项目，完全原创。
+
+**24.11 项目 Demo 链接（选填）:**
+
+https://luckyft.vercel.app/
