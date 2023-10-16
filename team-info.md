@@ -1504,3 +1504,111 @@ https://github.com/HelloRWA/eth-hangzhou/pull/1
 **24.11 项目 Demo 链接（选填）:**
 
 https://luckyft.vercel.app/
+
+# 25. BitGrow
+
+**1 项目名称**: BitGrow
+
+**2 所选赛道**: Layer2 Application
+
+**3 项目图片**:
+
+![BitGrow](https://bitgrowimg.vercel.app/banner.png)
+
+**4 简介**: 
+
+Bitgrow 是一个建立在 Scroll 上的 KOL 营销平台。利用 AI 技术为项目方提供最优的 KOL 匹配，并实现病毒式文案生成与深度数据分析的 Web3 营销服务平台。
+
+**5 队长和队员**: 
+
+队长：[@len](https://github.com/Bitgrowxyz) 
+
+队友：
+[@Jack](https://github.com/UnknownMusketeer/ETH-Hangzhou)
+[@SS](https://github.com/hangzhou-hackson-ss)
+[@ice](https://github.com/BS2911)
+
+**6 本项目在这次黑客松的目标**
+
+目标：
+1. 在 Scroll 上实现项目方订单创建、支付、KOL 接单、履约、提款、取消订单退款等流程的智能合约；
+2. 基础的 KOL 项目方匹配与筛选
+3. 基于项目方广告订单已填写数据生成适用于营销传播的 twitter 病毒式文案；
+4. 项目方/KOL 双方的基础管理后台
+
+**7 黑客松前两日的进度**
+- Day 1:
+    1. 完成现场组队并进行任务分配；
+    2. 产品/UI：完成产品 Mockup 原型方案与 UI 组件选型；
+    3. 合约：完成 Goerli 网络合约开发与部署，包含项目方创建订单（先到先得、指定kol）、kol领取订单、kol提交完成订单，完成订单奖励领取、项目方取消订单、项目方重置订单等用例；
+    4. 后端：KOL/任务/项目方/订单等接口60%进度；
+    5. 前端：UI 大部分完成，对接 kol list/task list 两个接口；
+    6. AI：语料爬取与 Prompt 编写测试。
+
+- Day 2:
+    1. 合约：Goerli 合约迁移至 scroll 测试网；
+    2. 后端：接口大部分完成，BUG 修复；
+    3. 前端：主流程接口对接完成；
+    4. Ai：邀请现场项目进行营销文案生成测试，收集反馈并进行调整。
+
+
+**8 视频链接**
+https://youtu.be/XKqd6iJxXlQ
+
+**9 项目 github repo 链接**
+https://github.com/orgs/Bitgrow-xyz/repositories
+
+**10 是否基于之前的项目**
+该项目是本次 hackathon 期间完成组队，从0到1开发的项目，完全原创。
+
+
+## 26. WeWill Protocol （不参与评奖）
+
+**1 项目名称**: WeWill Protocol
+
+**2 所选赛道**: Layer2 Application
+
+**3 项目图片**:
+
+![](https://www.google.com/url?sa=i&url=https%3A%2F%2Femojiterra.com%2Ftriangular-flag%2F&psig=AOvVaw1anxPxZsWxd8udlZCIXKPE&ust=1697526415902000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCMDM9umA-oEDFQAAAAAdAAAAABAE)
+
+**4 简介**: 
+
+WeWill Protocol是一个去中心化的Flag平台，大家可以立flag，参与flag，完成flag并领取奖励，帮助大家更好的尝试新事物。
+
+**5 队长和队员**: 
+
+队长：[@0xAA](https://github.com/AmazingAng) 
+
+队友：
+[@Django](https://github.com/0xDjangoMo)
+[@Krisss](https://github.com/reborn-sama)
+[@b00l](https://github.com/0xb00lean)
+
+**6 本项目在这次黑客松的目标**
+
+目标：
+1. 完成flag智能合约，包含创建flag、参与flag、完成flag，领取完成flag奖励的功能
+2. 完成基于flag智能合约的subGraph
+3. 完成简单的前端
+
+**7 黑客松前两日的进度**
+- Day 1:
+    1. 完成现场组队
+    2. 头脑风暴
+    3. 完成智能合约
+
+
+- Day 2:
+    1. 完成subGraph
+    2. 完成简单的前端
+ 
+**8 视频链接**
+无
+
+**9 项目 github repo 链接**
+https://github.com/WTFAcademy/Wewill
+
+**10 是否基于之前的项目**
+该项目是本次 hackathon 期间完成组队，从0到1开发的项目，完全原创。
+
