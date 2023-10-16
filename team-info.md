@@ -39,7 +39,12 @@ ETH Hangzhou Hackathon 的项目需要提交到本页，PR（Pull-Request）截�
 修复了 Dojo-Strak 官方的版本冲突问题 并决定使用 `Dojo v0.3.0-rc9`作为基准框架 并设计了基础的组件 （`Coompent` ）
 
 ### 第二天
-编写游戏逻辑 ( `System ` ) 编写
+编写游戏逻辑 ( `System ` ) 及其单元测试 
+
+### 第三天
+本地测试网部署 与集成测试
+
+
 
 
 
