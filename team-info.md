@@ -42,7 +42,7 @@ Zero Knowledge
 
 # 4. 简介
 
-基于 Starknet-Dojo开发的科幻开放世界全链游戏
+基于 Starknet Dojo开发的科幻开放世界全链游戏
 
 # 5. 队员 
 - 王首豪 Cairo/Dojo 工程师
