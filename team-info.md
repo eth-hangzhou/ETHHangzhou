@@ -38,6 +38,6 @@
   - 使用etherjs连接部署至Scroll的合约
   - 调用合约的接口（initToken，mint等）完成相应的功能
   - 读取合约信息完善页面
-8. Demo 视频链接：
+8. Demo 视频链接：https://pivot-one-video.vercel.app/
 9. 项目 github repo 链接：https://github.com/NftTopBest/pivot
 10. 该项目是本次hackathon期间，从0到1开发的项目，完全原创。
