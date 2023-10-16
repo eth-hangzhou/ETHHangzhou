@@ -1,4 +1,4 @@
-# ETH Hangzhou Hackathon 项目提交说明
+![image](https://github.com/SonarX-Team/ETHHangzhou/assets/46318701/a24a21e1-b501-4afc-9cb2-e9a25d9ed386)![image](https://github.com/SonarX-Team/ETHHangzhou/assets/46318701/f21b44e6-954c-4d24-8e3b-b27781c160e5)![image](https://github.com/SonarX-Team/ETHHangzhou/assets/46318701/1c879b4d-4d27-4ee5-a063-aff7a07f502d)# ETH Hangzhou Hackathon 项目提交说明
 
 ETH Hangzhou Hackathon 的项目需要提交到本页，PR（Pull-Request）截止时间为 2023年10月16日 下午14:00（北京时间，UTC+8）。你需要在你的项目下更新以下内容:
 1. 项目名称
@@ -222,4 +222,63 @@ This project, developed from scratch during this hackathon, is a completely orig
 本项目在这次黑客松的目标：Day 1完成合约，Day 2/3完成前后端
 
 黑客松前两日的进度：完成了基本流程的demo
+
+## 5. SonarMeta
+
+### Track
+   
+Public Goods
+
+### Introduction of SonarMeta
+
+On-chain Angel nurturing & Authorization Network for emerging IPs (Intellectual Properties).
+
+This is our website [(English version)](https://en.sonarmeta.com): 
+
+![image](https://github.com/SonarX-Team/ETHHangzhou/assets/46318701/23dfbb0d-d902-4598-82bc-6e1e70f03769)
+
+**Unlocking Value for Emerging IPs**
+
+Constrained by the precise control of traffic and the squeezing of the platform economy in Web2, many emerging IPs have failed to unleash their potential due to a lack of resources. We should consider to solve this problem and unlocking these energies by establishing an Web3 value network, much like releasing nuclear energy.
+
+**Networking Protocols**
+
+Each IP can delegate authorization to one level below at most. This means unions cannot delegate the authorization of their parent nodes to their child nodes.
+
+Initially, unions are responsible for nurturing other IPs, but over time, they can also declare themselves as an IP.
+IP refers to a consensus on a certain profile, image, or artistic representation at an abstract level, rather than a specific digital media file.
+A union is composed of individuals with various skills in flexible employment, and their abilities complement each other.
+
+![image](https://github.com/SonarX-Team/ETHHangzhou/assets/46318701/be89b6a1-1c09-4332-9adc-2e9bc27ad9c6)
+
+![image](https://github.com/SonarX-Team/ETHHangzhou/assets/46318701/f257ec1a-fdb6-4cd6-98dc-e97311f75b47)
+
+### Team
+
+- Archimesons 
+- BazingaJack
+- Hins
+    
+### Goals for This Hackathon
+
+1. Finish the demo version of the project.
+2. Obtain the consensus of community.
+
+### Progress in the First Two Days of the Hackathon
+
+1. Design product core functions, user flow and art style
+2. Finish frontend and contracts.
+3. Deploy and test.
+
+### Demo Link
+
+### Github repo
+    
+Frontend: https://github.com/SonarX-Team/sonarmeta-v4-next
+
+Contracts: https://github.com/SonarX-Team/sonarmeta-v4-contracts
+
+### Originality Statement
+    
+This project, developed from scratch during this hackathon, is a completely original creation.
 
