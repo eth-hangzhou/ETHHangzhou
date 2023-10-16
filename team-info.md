@@ -24,3 +24,77 @@ ETH Hangzhou Hackathon 的项目需要提交到本页，PR（Pull-Request）截�
 进入Demo Day的每个项目有 5 分钟展示时间。
 
 ❗❗❗项目提交PR示例详见：https://github.com/eth-hangzhou/ETHHangzhou/pull/6
+
+
+
+# MOD 6551
+
+**1 项目名称**: MOD 6551
+
+**2 所选赛道**: Public Goods
+
+**3 项目图片**:
+
+
+**4 简介**: 
+
+ERC6551 是一个让人兴奋的协议，它让任何 NFT 可以作为一个钱包。从钱包的角度讲，我们终于可以有一个固定的钱包地址，并且私钥则可以经常更新，以保证资产安全。
+
+但是，6551 和 AA 一样，需要每个用户部署一个合约，带来两个问题 1. 用户需要支付昂贵的 gas 2. 链上状态爆炸。
+我们正在设计建设的以太坊兼容 L1 BitPoW 公链的重要目标，确实可以在不牺牲安全和去中心化的条件下，把 gas 降低到几乎为0，同时，我们也必须抑制状态爆炸！因为节点的膨胀会导致区块链的中心化。
+所以我们选择魔改 ERC6551 来实现我们的目标，在新的 L1 和大量 L2 上，我们完全有条件部署升级版本的 ERC20，避免每个用户部署一个新的智能合约。
+
+**5 队长和队员**: 
+
+队长: [KJ](https://github.com/kernel1983)
+
+**6 本项目在这次黑客松的目标:**
+
+目标：
+1. 修改 Foundry，能够在使用 Foundry 模版的 solidity 项目中的 test 中使用新增的几个 cheatcode。cheatcode 能够按照参数要求返回所有 storage slots 相关的信息。
+    ```solidity
+    function startMappingRecording() external;
+    function getMappingLength(address target, bytes32 slot) external returns (uint);
+    function getMappingSlotAt(address target, bytes32 slot, uint256 idx) external returns (bytes32);
+    function getMappingKeyOf(address target, bytes32 slot) external returns (uint);
+    function getMappingParentOf(address target, bytes32 slot) external returns (bytes32);
+    ```
+2. 新建一个合约本地测试 toolkit，用于简化和合约交互的命令。
+   1. 用可以读取其他任意语言生成的 abi，并发送合约，测试结果
+   2. 强类型语言，但在编写过程中可以有更简易的类型转换
+   3. 并根据合约 abi 的 Json 文件自动化转换输入命令的参数。
+
+**7 黑客松前两日的进度**
+- Day 0:
+  - [x] 确定项目和目标 GitHub repo 的新建：https://github.com/kernel1983/
+  - [x] 细化任务：
+    1. 修改 ERC20 数据结构。
+    2. 修改 ERC20 transfer 方法，以及快速测试脚本。
+    3. 修改 ERC721，增加erc20_transfer方法。
+    4. 修改 ERC20 approve 方法和 transferFrom 方法。
+    5. Option，创建一个UI。
+  - [x] 查看 foundry 文档，以及源码，确定修改路径。
+- Day 1:
+  - [x] 完成任务 1-3。
+  修改数据结构比较顺利，在修改 transfer 方法的时候，使用 brownie 调试代码比较烧脑，为了增加效率引入了快速测试脚本。
+- Day 2:
+  - [x] 完成任务 4。
+  - [ ] 开始任务 5 快速学习 CSS 框架。
+  因为 solidity 代码我们之后也要用 python 再做一遍，但是构建的 UI 前端未来可以复用，所哟我们佛系的开发了 UI。
+- Day 3:
+  - [x] 完成 team info。
+  - [ ] 持续完善任务 5。
+
+**8 视频链接:**
+
+
+**9 项目 github repo 链接:**
+所有代码都在
+https://github.com/kernel1983/mod6551
+
+**10 是否基于之前的项目:**
+该项目是本次hackathon期间，从0到1开发的项目，完全原创。
+本项目服务以太坊生态，同时也用于我们的新公链 L1 BitPoW。
+
+**24.11 项目 Demo 链接（选填）:**
+https://bitpow.org/mod6551.html
