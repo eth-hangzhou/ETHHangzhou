@@ -7,7 +7,7 @@
 
 2. 所选赛道
 
-  *Public Goods*
+  *L2 Application*
 
 3. 项目图片（1 张有代表性的图片，不要过长）
   
