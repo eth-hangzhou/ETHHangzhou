@@ -40,6 +40,8 @@ ETH Hangzhou Hackathon 的项目需要提交到本页，PR（Pull-Request）截�
 
 尝试进行游戏架空故事背景的策划
 
+进行游戏主要UI/UX的初步设计
+
 ### 第二天
 编写游戏逻辑 ( `System ` ) 及其单元测试 
 
