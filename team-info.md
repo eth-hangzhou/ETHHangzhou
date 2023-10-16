@@ -83,7 +83,7 @@ Artemis希望在坚持“**私钥完全本地存储、且只由用户掌握**”
   
 **8 视频链接:**  
 
-https://www.bilibili.com/video/BV1LT411x72Q/
+https://youtu.be/nrTygAL2O3c
 
 **9 项目 github repo 链接:**  
 
@@ -97,4 +97,6 @@ https://github.com/amazingtgbot/tradingbot
 
 **11 项目 Demo 链接（选填）:**  
 
-https://github.com/0xevm/sloads_demo#sloads-demo----
+@zys_1366_bot   （telegram搜这个bot。部署在goerli测试网。）
+
+----
