@@ -45,3 +45,6 @@ ETH Hangzhou Hackathon 的项目需要提交到本页，PR（Pull-Request）截�
     - 前端: [Frontend Repo](https://github.com/chiguayeshao/gas-reimbursement-platform)
 10. 该项目是本次hackathon期间，从0到1开发的项目，完全原创。
 11. Live Demo: [GasGift Reimbursement Protocol](https://gas-reimbursement.vercel.app/)
+12. 使用到了以下哪些合作方的产品/功能:
+    - Scroll
+    - Chainlink
