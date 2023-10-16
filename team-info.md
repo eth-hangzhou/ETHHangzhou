@@ -69,7 +69,9 @@ SpotLive通过用户在地点的打卡构成活动地标（SBT）。参与者上
   - 部分问题修复
 
 **8 视频链接:**
-+ [B站](https://b23.tv/6VmV8uw)
++ [B站视频](https://b23.tv/6VmV8uw)
+
++ [PPT文件](https://github.com/HackingOnWeb3/SpotLiveImage/blob/14d81ef050d378e682aa1d7296800204e4ac629d/SpotLive-PPT.pdf)
 
 **9 项目 github repo 链接:**
 
