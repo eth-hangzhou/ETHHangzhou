@@ -87,6 +87,10 @@ Zero Knowledge
 # 9.GitHub repo
 [PoS Planet](https://github.com/Web3-Club/PoS-Planet)
 
+# 10.原创声明
+该项目是本次hackathon期间，从0到1开发的项目，**完全原创**。
+
+
   
 
 
