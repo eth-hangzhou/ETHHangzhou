@@ -35,9 +35,9 @@ ETH Hangzhou Hackathon 的项目需要提交到本页，PR（Pull-Request）截�
 
 **3 项目图片**:
 
-![pic1](img/mod6551_ui.jpg)
+![Mod6551 UI](img/mod6551_ui.png)
 
-![pic2](img/mod6551_design.jpg)
+![Mod6551 Design](img/mod6551_design.png)
 
 **4 简介**: 
 
