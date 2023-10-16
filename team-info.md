@@ -1,4 +1,4 @@
-![image](https://github.com/SonarX-Team/ETHHangzhou/assets/46318701/a24a21e1-b501-4afc-9cb2-e9a25d9ed386)![image](https://github.com/SonarX-Team/ETHHangzhou/assets/46318701/f21b44e6-954c-4d24-8e3b-b27781c160e5)![image](https://github.com/SonarX-Team/ETHHangzhou/assets/46318701/1c879b4d-4d27-4ee5-a063-aff7a07f502d)# ETH Hangzhou Hackathon 项目提交说明
+# ETH Hangzhou Hackathon 项目提交说明
 
 ETH Hangzhou Hackathon 的项目需要提交到本页，PR（Pull-Request）截止时间为 2023年10月16日 下午14:00（北京时间，UTC+8）。你需要在你的项目下更新以下内容:
 1. 项目名称
