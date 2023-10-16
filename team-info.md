@@ -34,9 +34,8 @@ ETH Hangzhou Hackathon 的项目需要提交到本页，PR（Pull-Request）截�
   <span style="font-size: 32px;">PoS Planet</span>
 </h1>
 
-
-
-## 
+# 2.赛道
+Zero Knowledge 
 
 
 ## 7.前两日进度
