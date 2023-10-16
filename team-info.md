@@ -887,4 +887,47 @@ Zero Knowledge
 
 该项目是本次hackathon期间，从0到1开发的项目，**完全原创**。
 
+# 15. AA Scaffold
 
+1. 项目名称
+
+  **AA-Scaffold**
+
+2. 所选赛道（Public Goods，Layer2 Application，Zero Knowledge 主赛道三选一）
+
+**Public Goods**
+
+3. 项目图片（1 张有代表性的图片，不要过长）
+
+![Scaffold](img/passkey.png)
+
+4. 简介
+
+AA 应用开发脚手架
+
+5. 队长和队员
+
+队长：Logic
+
+队员：Sky，Ellen，Jun
+
+6. 本项目在这次黑客松的目标
+
+修改 scaffold，做 passkey，做 session key
+
+7. 黑客松前两日的进度
+
+D1：研究 passkey 和 session key 代码
+D2：修改 scaffold 加上
+
+8. Demo 视频链接
+
+https://www.youtube.com/watch?v=bXQ-jKFToEA
+
+9. 项目 github repo 链接
+
+https://github.com/TwilightLogic/smart-accounts-website
+
+10. 声明未基于之前的项目，
+
+该项目是本次 hackathon 期间，从 0 到 1 开发的项目，完全原创。
