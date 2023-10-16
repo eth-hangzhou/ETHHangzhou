@@ -326,3 +326,49 @@ WeiWallet借鉴了SAFE钱包并进行创新，市面上的多签钱包都是以*
 ## 项目 Demo 链接（选填）
 
 https://neweddy.top/
+
+1，项目名称: melon
+
+试玩地址: https://www.happymelon.club/explore
+
+2，所选赛道：Layer2 Application
+
+3，项目图片
+
+截图
+
+
+4，简介：
+Melon，通过具备聚集效应的热点话题（吃瓜八卦新鲜事），将分散的关注度通过简单的方式进行归集和统一连接Web3爱好者，提供真实自主社交体验，激励高质量内容创作并确保经济收益。
+特色玩法：
+1，质押代币可用于增加曝光量，基于内容预测，举报不良内容。
+2，代币玩法还包括：付费内容，付费社群，付费虚拟物品。
+3，监管系统：个人举报，AI算法检索，高权重账号验证
+4，声誉上链（待完成）
+5，基于内容的预测（prediction based on content. 待完成）
+
+
+5，队长：Oliver Wang
+
+6，本项目在这次黑客松的目标：实现melon dapp从 0 到 1 开发，利用代币机制提升游戏玩法多样性，通过新鲜事的内容带动线上token交易行为方式达到预期收益，玩法机制结合 用户的好奇心 和 Social，对于 Fi 属性有很好的拓展，项目能够给予链上应用新赋能。
+
+7，黑客松前两日的进度：
+
+Day1：
+待办事项：代码调试，合约实现
+
+完成前端页面设计
+
+搭建合约框架
+
+Day2：
+待办事项：功能完善
+
+实现代码，完成测试
+
+8，项目 Demo 视频：https://youtu.be/yIbsNTIHkjU
+9，项目 github repo 链接：https://github.com/FlareZone/melon-demo
+
+10. 声明未基于之前的项目: 该项目是本次 hackathon 期间，从 0 到 1 开发的项目，完全原创。
+
+项目 Demo 链接（选填）：https://www.happymelon.club/explore
