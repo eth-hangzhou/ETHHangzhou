@@ -49,7 +49,8 @@ Zero Knowledge
 - 烟波 产品 / 游戏 / 宣发 / 运营
 - 黄志羿 数值策划/UI
 
-# 
+# 6.本项目在这次黑客松的目标
+制作本游戏的
   
 
 
@@ -78,6 +79,12 @@ Zero Knowledge
 ### 设计
 - 进行游戏玩法底层的概率系数的数值策划
 
+# 8.Demo 视频链接
+
+[YouTube](https://youtu.be/prXKLsrFgsM)
+
+
+# 9.
 
   
 
