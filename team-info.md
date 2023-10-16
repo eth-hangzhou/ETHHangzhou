@@ -24,3 +24,46 @@ ETH Hangzhou Hackathon 的项目需要提交到本页，PR（Pull-Request）截�
 进入Demo Day的每个项目有 5 分钟展示时间。
 
 ❗❗❗项目提交PR示例详见：https://github.com/eth-hangzhou/ETHHangzhou/pull/6
+
+# State Identification
+
+**1 项目名称**: State Identification
+
+**2 所选赛道**: Public Goods
+
+**3 项目图片**:
+
+https://ibb.co/Lx5qFpP
+
+**4 简介**: 
+
+state identification 
+
+**5 队长和队员**: 
+
+队长: [@北海](https://github.com/smileonesmile) 队友：[@donald](https://github.com/shamirsecret) 
+**6 本项目在这次黑客松的目标**
+
+目标：
+1. 创建状态存证合约 state identification，能够按照参数要求返回所有相关的信息。
+    ```solidity
+    function openChannel(uint256 amount)
+    function _updateBalance(address participant, uint256 newBalance)
+    function closeChannel(uint256 newBalance, uint256 close_nonce, bytes calldata adminSignature) external
+    ```
+2. 新建一个页面，用来演示整个状态存证和数据库交互
+
+**7 黑客松前两日的进度**
+- Day 0:编写合约
+
+- Day 1:编写演示前后端
+
+**8 视频链接**
+
+**9 项目 github repo 链接**
+所有代码都在
+[https://github.com/ShamirSecret]
+**10 是否基于之前的项目**
+该项目是本次hackathon期间，从0到1开发的项目，完全原创。
+**24.11 项目 Demo 链接（选填）**
+http://124.221.74.51:5000
