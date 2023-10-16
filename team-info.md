@@ -69,6 +69,7 @@ p对于非白名单的lp对应该为（0.6～0.9）
   - [x]对接前端和合约 
 
 **8 视频链接**：
+https://www.bilibili.com/video/BV1xy4y1N7wS/?spm_id_from=333.999.0.0&vd_source=9518fd55781e9b29aea5cf5115e97ecc
 
 
 
