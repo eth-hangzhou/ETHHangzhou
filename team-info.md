@@ -46,7 +46,8 @@ ETH Hangzhou Hackathon 的项目需要提交到本页，PR（Pull-Request）截�
 - 编写游戏逻辑 ( `System ` ) 及其单元测试
   
 - 进行游戏玩法底层的概率系数的数值策划
-- 
+  
+
 
 ### 第三天
 - 本地测试网部署 与集成测试
