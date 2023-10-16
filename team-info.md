@@ -74,6 +74,9 @@ https://www.bilibili.com/video/BV1xy4y1N7wS/?spm_id_from=333.999.0.0&vd_source=9
 连上
 https://www.bilibili.com/video/BV1W841167aY/?vd_source=9518fd55781e9b29aea5cf5115e97ecc
 
+前端
+ https://www.bilibili.com/video/BV15j411x748/?share_source=copy_web&vd_source=47aeb329462b1691bceef3653f335b65
+
 
 
 **9 项目Github repo链接**：
