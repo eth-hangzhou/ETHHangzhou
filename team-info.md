@@ -28,7 +28,13 @@ ETH Hangzhou Hackathon 的项目需要提交到本页，PR（Pull-Request）截�
 
 
 
-# PoS Planet
+# 1.项目名称
+
+<h1 align="center">
+  <span style="font-size: 32px;">PoS Planet</span>
+</h1>
+
+
 
 ## 
 
@@ -44,8 +50,6 @@ ETH Hangzhou Hackathon 的项目需要提交到本页，PR（Pull-Request）截�
 
 #### 设计
 - 进行游戏主要UI/UX的初步设计
-
-
 
 ### 7.2 第二天
 #### 技术
