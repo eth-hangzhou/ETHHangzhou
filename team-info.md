@@ -34,7 +34,6 @@ ETH Hangzhou Hackathon 的项目需要提交到本页，PR（Pull-Request）截�
     - GasGift Reimbursement Protocol (GRP) pioneers the first trustless Activity Scoring Protocol on the EVM, integrating the cutting-edge Zero-Knowledge (ZK) technology from Axiom, to create a novel pathway for gas reimbursement initiatives. 
     - The Gas Reimbursement Platform, built atop this scoring protocol, emerges as the first of its kind on EVM, offering a trustless gas reimbursement solution, further enhanced by the ZK proofs facilitated through Axiom, ensuring transparency and accuracy in user activity scoring and gas fee reimbursements.
 5. 队长和队员: [Ethan Ye](https://github.com/chiguayeshao)
-
 6. 本项目在这次黑客松的目标: 从0到1丰富idea并进行开发实践，实现MVP
 7. 黑客松前两日的进度: 
     - D1: 头脑风暴，丰富 GasGift 协议架构，尝试最小化产品合约，搭建前端架构。
