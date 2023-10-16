@@ -1,26 +1,43 @@
-# ETH Hangzhou Hackathon 项目提交说明
-
-ETH Hangzhou Hackathon 的项目需要提交到本页，PR（Pull-Request）截止时间为 2023年10月16日 下午14:00（北京时间，UTC+8）。你需要在你的项目下更新以下内容:
-1. 项目名称
-2. 所选赛道（Public Goods，Layer2 Application，Zero Knowledge 主赛道三选一）
+# PIVOT
+1. 项目名称：PIVOT
+2. 所选赛道：Layer2 Application
 3. 项目图片（1张有代表性的图片，不要过长）
-4. 简介
-5. 队长和队员
+4. 简介：PIVOT（一个全去中心化的不贬值资产的众包估值协议）旨在帮助各类开源项目（代码、视频、文档、数据集等）在不影响开源性的情况下获取收益。P.I.V.O.T.协议本质上是一个股份无限增发的偏佛系的机制，其价值不依赖稀缺性。该协议结合了例如打赏、股份、股指、分红、等机制的优势。  其特点如下：
+- 股价在所有时间恒定
+- 打赏即买股
+- 买股即灵魂绑定（SBT）
+- 卖股即增发
+    - 卖多少增发多少
+    - 增发股份等比稀释
+- 卖股即盈利
+- 盈利即分红
+- 所有股份在同一时间权益平等
+    - 权益即分红权
+- 股东数量即股指
+  
+5. 队长和队员：
+  Zaki（产品）/Linus（前端）/Bruce（合约）
 6. 本项目在这次黑客松的目标
-7. 黑客松前两日的进度
-8. Demo 视频链接（可以是录屏或其他形式），可以选择的视频平台：[Youtube](https://youtube.com)，[Bilibili](https://bilibili.com)，[Loom](https://www.loom.com/)，视频长度不能超过3分钟，否则扣分。
-9. 项目 github repo 链接
-10. 声明未基于之前的项目, 如: 该项目是本次hackathon期间，从0到1开发的项目，完全原创。
-11. 项目 Demo 链接（选填）
-
-在截止时间前提交 PR，且包含前 10 项信息的项目，视为提交成功，否则不参与评奖。
-
-评委将在2023年10月16日下午14-18点期间，根据以下4个维度对项目进行第一轮打分，每个赛道的前5名可以参加晚上19点的Demo Day：
-1. 代码 🧱
-2. 创新性 💡
-3. Demo完整度 📝
-4. 对以太坊生态的重要性 ♻️
-
-进入Demo Day的每个项目有 5 分钟展示时间。
-
-❗❗❗项目提交PR示例详见：https://github.com/eth-hangzhou/ETHHangzhou/pull/6
+   - 创建一个简单的DAPP，可实现Hacker/Youtuber/Writter上传自己的项目并Mint NFT，用户/玩家可以实现购买、怒退等简单功能
+   - 创建合约来管理NFT的发行，这里我们采用ERC-1155来铸造NFT
+7. 黑客松前两日的进度：
+- day1
+  - 确定使用的技术栈：react
+  - 搭建页面的layout和静态页面的编写
+  - 使用etherjs连接钱包
+  - 创建pivot合约继承了 OpenZeppelin 的 ERC1155 标准合约，并使用了 Ownable、ERC1155Burnable 和 ERC1155Supply 扩展。
+    合约功能：
+    Pivot 合约是一个 ERC1155 标准代币合约，支持多资产代币。
+    合约有一个拥有者（owner），拥有者可以设置 URI（Uniform Resource Identifier）来引用代币元数据。
+    合约提供了创建新代币的功能（initToken），新代币可以设置价格和最大供应量。
+    用户可以购买代币（mint）并获得权益，这需要支付与代币价格相等的 ETH。购买后，代币供应量将减少，用户的余额将增加。
+    用户可以查询代币的所有权、价格和余额。
+    用户可以领取代币余额（claimUserBalance），将 ETH 转入其钱包。
+    合约还记录了每种代币的铸造者，并支持向多个用户分发奖励。
+- day2
+  - 使用etherjs连接部署至Scroll的合约
+  - 调用合约的接口（initToken，mint等）完成相应的功能
+  - 读取合约信息完善页面
+8. Demo 视频链接：
+9. 项目 github repo 链接：https://github.com/NftTopBest/pivot
+10. 该项目是本次hackathon期间，从0到1开发的项目，完全原创。
