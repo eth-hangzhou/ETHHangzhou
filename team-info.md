@@ -1,7 +1,6 @@
 # ETH Hangzhou Hackathon 项目提交说明
 
 ETH Hangzhou Hackathon 的项目需要提交到本页，PR（Pull-Request）截止时间为 2023年10月16日 下午14:00（北京时间，UTC+8）。你需要在你的项目下更新以下内容:
-
 1. 项目名称
 2. 所选赛道（Public Goods，Layer2 Application，Zero Knowledge 主赛道三选一）
 3. 项目图片（1张有代表性的图片，不要过长）
@@ -17,7 +16,6 @@ ETH Hangzhou Hackathon 的项目需要提交到本页，PR（Pull-Request）截�
 在截止时间前提交 PR，且包含前 10 项信息的项目，视为提交成功，否则不参与评奖。
 
 评委将在2023年10月16日下午14-18点期间，根据以下4个维度对项目进行第一轮打分，每个赛道的前5名可以参加晚上19点的Demo Day：
-
 1. 代码 🧱
 2. 创新性 💡
 3. Demo完整度 📝
