@@ -103,10 +103,9 @@ ERC6551 是一个让人兴奋的协议，它让任何 NFT 可以作为一个钱�
   - [ ] 持续完善任务 5。
 
 **8 视频链接:**
-
+https://youtu.be/NMWOreI3nEw
 
 **9 项目 github repo 链接:**
-所有代码都在
 https://github.com/kernel1983/mod6551
 
 **10 是否基于之前的项目:**
@@ -114,4 +113,3 @@ https://github.com/kernel1983/mod6551
 本项目服务以太坊生态，同时也用于我们的新公链 L1 BitPoW。
 
 **24.11 项目 Demo 链接（选填）:**
-https://bitpow.org/mod6551.html
