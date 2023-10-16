@@ -42,6 +42,7 @@ D2
 
 **8 视频链接:**
 PDF: https://gamma.app/public/AI-Social-Pet-2fogjtm0f0123je
+视频：https://www.bilibili.com/video/BV1s34y1g7FA/
 
 Todo
 
