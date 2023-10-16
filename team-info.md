@@ -25,7 +25,62 @@ ETH Hangzhou Hackathon 的项目需要提交到本页，PR（Pull-Request）截�
 
 ❗❗❗项目提交PR示例详见：https://github.com/eth-hangzhou/ETHHangzhou/pull/6
 
-# EthDA
+# 1. Pinnect
+
+**1 项目名称**: Pinnect
+
+**2 所选赛道**: Layer 2 Application
+
+**3 项目图片**:
+
+![Pinnect](https://github.com/DocRace/pinnect-eth-hangzhou/blob/main/images/Pinnect.001.png)
+
+**4 简介**: 
+
+Game-map collaboration, all for gammers.
+
+Pinnect is a visionary platform designed to revolutionize collaborative storytelling within the Ethereum ecosystem. With a seamless blend of interactive map exploration, tag management, and relationship visualization, Pinnect empowers users to co-create immersive narratives and gaming experiences like never before.
+Key features:
+1. Interactive Map Collaboration: Pinnect offers an engaging map interface where users can explore, contribute, and interact with various storytelling locations. Each click on the map initiates a unique narrative journey, connecting users through a shared gaming universe.
+2. Efficient Tag Editing: Managing tags has never been easier. Pinnect's tag editing interface allows users to refine titles, descriptions, and relationships effortlessly. Users can create hyperlinks between tags and ensure organized and interconnected storytelling.
+3. Relationship Flow: Pinnect's Relationship Flow feature simplifies tag relationship visualization. Users can connect tags, choose direction (preceding or following), and define relationship types, enabling branching storylines and fostering creative collaboration.
+4. On-Chain Contribution: Pinnect promotes fairness and transparency through on-chain contributions. Content is securely anchored on the blockchain, ensuring equitable rewards and incentivizing active participation.
+5. Cross-Platform Wallet Integration: Our platform offers cross-platform wallet support, allowing users to seamlessly access their Ethereum wallets across various devices and platforms, making transactions and asset management convenient and consistent.
+
+
+**5 队长和队员**: 
+
+**Race Li**, co-initiator of magipop, serial entrepreneur, 2nd venture backed founders, previously founded an AI Music startup, made a social app with 1 million+ downloads, Apple WWDC (Worldwide Developers Conference) Scholarship Winner, Hurun U30 Winner, electronic musician.
+
+**Setsukousa**, co-initiator of magipop, senior Web3 researcher, research published in Chaos, Solitons & Fractals, cryptocurrency investors, master in financial physics at ZJU, metaverse consultant at fine arts institute.
+
+
+**6 本项目在这次黑客松的目标:**
+
+- The project is an original creation that started from scratch during this hackathon. We aim to create a practical solution in the field of collaborative creativity within gaming communities.
+- We plan to integrate and utilize the Ethereum ecosystem, exploring high-performance creative collaboration solutions through Layer2 integrations.
+- We look forward to moving forward together with talented buidlers globally.
+
+**7 黑客松前两日的进度**
+
+- On the Oct 13th and 14th, we discussed and validated concepts, and performed user validation.
+- From the Oct 14th to the 15th, we divided tasks and carried out front-end and back-end development, contract deployment, and debugging.
+
+**8 视频链接:**
+
+Pitch & demo video: https://youtu.be/Tr6Xrd_Swys
+Deck: https://docsend.com/view/x64yntk9zrs73uqj
+
+**9 项目 github repo 链接:**
+
+https://github.com/DocRace/pinnect-eth-hangzhou
+
+**10 是否基于之前的项目:**
+
+This project, developed from scratch during this hackathon, is a completely original creation.
+
+
+# 2. EthDA
 
 **1 项目名称**: EthDA
 
