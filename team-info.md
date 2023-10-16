@@ -366,3 +366,80 @@ https://neweddy.top/
 该项目是本次hackathon期间，从0到1开发的项目，完全原创。
 **24.11 项目 Demo 链接（选填）**
 http://124.221.74.51:5000
+
+# 7. MOD 6551
+
+**1 项目名称**: MOD 6551
+
+**2 所选赛道**: Public Goods
+
+**3 项目图片**:
+
+![Mod6551 UI](img/mod6551_ui.png)
+
+![Mod6551 Design](img/mod6551_design.png)
+
+**4 简介**: 
+
+ERC6551 是一个让人兴奋的协议，它让任何 NFT 可以作为一个钱包。从钱包的角度讲，我们终于可以有一个固定的钱包地址，并且私钥则可以经常更新，以保证资产安全。
+
+但是，6551 和 AA 一样，需要每个用户部署一个合约，带来两个问题 1. 用户需要支付昂贵的 gas 2. 链上状态爆炸。
+我们正在设计建设的以太坊兼容 L1 BitPoW 公链的重要目标，必须抑制状态爆炸！（私货：gas我们可以超级便宜，不是问题）因为节点的膨胀会导致区块链的中心化。
+所以我们选择魔改 ERC6551 来实现我们的目标，在新的 L1 和大量 L2 上，我们完全有条件部署升级版本的 ERC20，避免每个用户部署一个新的智能合约。
+
+**5 队长和队员**: 
+
+队长: [KJ](https://github.com/kernel1983)
+
+**6 本项目在这次黑客松的目标:**
+
+目标：
+1. 修改 ERC20 数据结构，能够使 balances 和 allowed 能够支持 tokenid：
+    ```solidity
+    mapping (address => mapping (uint256 => uint256)) public balances;
+    mapping (address => mapping (uint256 => mapping (address => mapping (uint256 => uint256)))) public allowed;
+    ```
+    同时重载方法，支持 tokenid：
+    ```solidity
+    function balanceOf(address _owner) external view returns (uint256 balance);
+    function balanceOf(address _owner, uint256 _from_tokenid) external view returns (uint256 balance);
+    function transfer(address _to, uint256 _value) external returns (bool success);
+    function transfer(address _to, uint256 _value, uint256 _from_tokenid, uint256 _to_tokenid) external returns (bool success);
+    function transferFrom(address _from, address _to, uint256 _value) external returns (bool success);
+    function transferFrom(address _from, address _to, uint256 _value, uint256 _from_tokenid, uint256 _to_tokenid) external returns (bool success);
+    ```
+2. 本地快速合约测试脚本，用于测试驱动开发。
+    https://github.com/kernel1983/mod6551/blob/main/scripts/mod6551.py
+    ```bash
+    brownie run mod6551 --network hardhat
+    ```
+   
+**7 黑客松前两日的进度**
+- Day 0:
+  - [x] 确定项目和目标 GitHub repo 的新建：https://github.com/kernel1983/
+  - [x] 细化任务：
+    1. 修改 ERC20 数据结构。
+    2. 修改 ERC20 transfer 方法，以及快速测试脚本。
+    3. 修改 ERC721，增加erc20_transfer方法。
+    4. 修改 ERC20 approve 方法和 transferFrom 方法。
+    5. Option，创建一个UI。
+  - [x] 查看 foundry 文档，以及源码，确定修改路径。
+- Day 1:
+  - [x] 完成任务 1-3。
+  修改数据结构比较顺利，在修改 transfer 方法的时候，使用 brownie 调试代码比较烧脑，为了增加效率引入了快速测试脚本。
+- Day 2:
+  - [x] 完成任务 4。
+  - [ ] 开始任务 5 快速学习 CSS 框架。
+  因为 solidity 代码我们之后也要用 python 再做一遍，但是构建的 UI 前端未来可以复用，所哟我们佛系的开发了 UI。
+- Day 3:
+  - [x] 完成 team info。
+  - [ ] 持续完善任务 5。
+**8 视频链接:**
+https://youtu.be/NMWOreI3nEw
+**9 项目 github repo 链接:**
+https://github.com/kernel1983/mod6551
+**10 是否基于之前的项目:**
+该项目是本次hackathon期间，从0到1开发的项目，完全原创。
+本项目服务以太坊生态，同时也用于我们的新公链 L1 BitPoW。
+**24.11 项目 Demo 链接（选填）:**
+
