@@ -1,7 +1,7 @@
 # PIVOT
 1. 项目名称：PIVOT
 2. 所选赛道：Layer2 Application
-3. 项目图片（1张有代表性的图片，不要过长）
+3. 项目图片：https://github.com/GitVerse-Web3/ETHHangzhou/blob/main/img/Team%2341_ScreenShot.png
 4. 简介：PIVOT（一个全去中心化的不贬值资产的众包估值协议）旨在帮助各类开源项目（代码、视频、文档、数据集等）在不影响开源性的情况下获取收益。P.I.V.O.T.协议本质上是一个股份无限增发的偏佛系的机制，其价值不依赖稀缺性。该协议结合了例如打赏、股份、股指、分红、等机制的优势。  其特点如下：
 - 股价在所有时间恒定
 - 打赏即买股
