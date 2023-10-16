@@ -35,7 +35,9 @@ Day1:
   
 
 
-**8 视频链接:**
+**8 视频链接:**  
+
+https://www.youtube.com/watch?v=rfGEdIT6pFw
 
 **9 项目 github repo 链接:**   
 
@@ -48,4 +50,7 @@ https://github.com/1anyway/GasTokens
 该项目是本次hackathon期间，从0到1开发的项目，完全原创。
 
 **11 项目 Demo 链接（选填）:**  
+
+https://www.youtube.com/watch?v=rfGEdIT6pFw
+
 
