@@ -2,6 +2,7 @@
 
 ETH Hangzhou Hackathon 的项目需要提交到本页，PR（Pull-Request）截止时间为 2023年10月16日 下午14:00（北京时间，UTC+8）。你需要在你的项目下更新以下内容:
 
+=======
 1. 项目名称
 2. 所选赛道（Public Goods，Layer2 Application，Zero Knowledge 主赛道三选一）
 3. 项目图片（1张有代表性的图片，不要过长）
@@ -326,120 +327,62 @@ WeiWallet借鉴了SAFE钱包并进行创新，市面上的多签钱包都是以*
 
 https://neweddy.top/
 
+# 6. LotLoot
 
-# 6. State Identification
+## Overview
 
-**1 项目名称**: State Identification
+- 项目名称: LotLoot
+- 试玩地址: [https://lotloot.osairo.xyz](https://lotloot.osairo.xyz)
+- 所选赛道：Layer2 Application
+- 项目图片
+  - ![screen](https://lotloot.osairo.xyz/screen.jpg)
+- 简介：LotLoot 是一个基于区块链技术的社交抢车位游戏。玩家可以通过社交账号登录，拥有多辆车和 5 个车位，并与其他玩家互动，以获得代币收益。
+- [白皮书](https://github.com/WeDAOLabs/ParkingSpaceBattle/design/litepaper.md)
+- 玩法：
+  1. 账号注册与登录:
+     用户需要使用社交账号（如 Facebook, Twitter 等）登录游戏；首次登录的用户将获得随机分配的 3 辆初始车辆和 5 个车位。
+  2. 车位与车辆规则:
+     每个玩家拥有 5 个车位，其中 1 个车位可以由玩家自己停放车辆，剩下的 4 个车位需由其他玩家停放车辆；每辆车停放在车位上时，根据车的品质，每秒都会产生一定数量的代币收益。收益的上限是 24 小时，之后需将车辆开走以提取收益；车辆的品质和收益率可以 通过消耗代币进行升级。
+  3. 社交与互动:
+     玩家可以查看好友的车位，决定是否将自己的车停放在好友的车位上；玩家也可以通过社交功能，邀请好友加入游戏，共同互动。
+  4. 收益与罚单机制:
+     车位的主人可以随时给自己车位上的车辆贴罚单，从而获取该车辆当前代币收入的 90%，剩余的 10%归车辆的主人所有；贴罚单后，车辆将被强制开走，车位重新变为可用状态。
+  5. 升级机制:
+     玩家可以通过消耗游戏内代币，提高自己车辆的品质和基础收益率；升级会影响车辆在车位上的代币产出速率，但不会影响 24 小时的收益上限。
+  6. 市场与交易:
+     玩家可以在游戏内的市场中，使用代币购买、出售或交换车辆和车位；市场交易将通过区块链技术确保交易的安全和透明。
+  7. 排行榜与奖励:
+     游戏将设有日、周、月排行榜，根据玩家的总收益、车位使用率等指标进行排名；排名靠前的玩家将获得额外的代币奖励和独家游戏道具。
+  8. 未来扩展:
+     游戏将不断推出新的车辆、车位和社交功能，以丰富游戏体验和增加玩家互动；通过 LotLoot，玩家不仅可以享受游戏的乐趣，还能通过社交互动和策略选择，获得实质的代币收益。同时，区块链技术的应用，也将为玩家提供一个安全、公正、透明的游戏环境。
+- 队长和队员：
 
-<a href="https://ibb.co/Lx5qFpP"><img src="https://i.ibb.co/7n4Tfyz/2023-10-16-102608.png" alt="2023-10-16-102608" border="0" /></a>
+  1. 队长：enixlee
+  2. 队员：see contributors part [https://github.com/WeDAOLabs/ParkingSpaceBattle/edit/main/README.md#contributors-sorted-by-frist-charactor]
 
-**4 简介**: 
+- 本项目在这次黑客松的目标：实现 LotLoot 全链游戏从 0 到 1 开发，聚合以太坊生态 NFT&Token，利用代币机制提升游戏玩法多样性，通过博弈方式达到预期收益，玩法机制结合 Game 和 Social，对于 Fi 属性有很好的拓展，项目能够给予链上应用新赋能。
+- 黑客松前两日的进度：
+  1. Day1：
+- [x] 待办事项：代码调试，合约实现
+- [x] 完成前端页面设计
+- [x] 搭建合约框架
+  1. Day2：
+- [x] 待办事项：功能完善
+- [x] 实现游戏逻辑合约，完成测试
+- [x] 实现分账合约
+- [x] 完成客户端交互逻辑
+- Demo 视频链接: [https://youtu.be/yIbsNTIHkjU](https://youtu.be/yIbsNTIHkjU)
+- 项目 github repo 链接：https://github.com/WeDAOLabs/ParkingSpaceBattle
+- 声明未基于之前的项目: 该项目是本次 hackathon 期间，从 0 到 1 开发的项目，完全原创。
+- 项目 Demo 链接（选填）：[https://lotloot.osairo.xyz/](https://lotloot.osairo.xyz/)
 
-状态存证是基于状态通道技术，针对Massive Adoption开发的Web3公共物品，便于项目方进行链上合约的部署与交互，并通过链上合约保障用户资产安全，避免项目方作恶，降低项目方服务器被攻击时的损失
+## Contributors (sorted by frist charactor)
 
-**5 队长和队员**: 
-
-队长: [@北海](https://github.com/smileonesmile) 队友：[@donald](https://github.com/shamirsecret) 
-**6 本项目在这次黑客松的目标**
-
-目标：
-1. 创建状态存证合约 state identification，能够按照参数要求返回所有相关的信息。
-    ```solidity
-    function openChannel(uint256 amount)
-    function _updateBalance(address participant, uint256 newBalance)
-    function closeChannel(uint256 newBalance, uint256 close_nonce, bytes calldata adminSignature) external
-    ```
-2. 新建一个页面，用来演示整个状态存证和数据库交互
-
-**7 黑客松前两日的进度**
-- Day 0:编写合约
-
-- Day 1:编写演示前后端
-
-**8 视频链接**
-[点击这里观看视频](https://www.youtube.com/watch?v=GcKP-ao5HUQ)
-
-**9 项目 github repo 链接**
-所有代码都在
-[https://github.com/ShamirSecret]
-**10 是否基于之前的项目**
-该项目是本次hackathon期间，从0到1开发的项目，完全原创。
-**24.11 项目 Demo 链接（选填）**
-http://124.221.74.51:5000
-
-# 7. MOD 6551
-
-**1 项目名称**: MOD 6551
-
-**2 所选赛道**: Public Goods
-
-**3 项目图片**:
-
-![Mod6551 UI](img/mod6551_ui.png)
-
-![Mod6551 Design](img/mod6551_design.png)
-
-**4 简介**: 
-
-ERC6551 是一个让人兴奋的协议，它让任何 NFT 可以作为一个钱包。从钱包的角度讲，我们终于可以有一个固定的钱包地址，并且私钥则可以经常更新，以保证资产安全。
-
-但是，6551 和 AA 一样，需要每个用户部署一个合约，带来两个问题 1. 用户需要支付昂贵的 gas 2. 链上状态爆炸。
-我们正在设计建设的以太坊兼容 L1 BitPoW 公链的重要目标，必须抑制状态爆炸！（私货：gas我们可以超级便宜，不是问题）因为节点的膨胀会导致区块链的中心化。
-所以我们选择魔改 ERC6551 来实现我们的目标，在新的 L1 和大量 L2 上，我们完全有条件部署升级版本的 ERC20，避免每个用户部署一个新的智能合约。
-
-**5 队长和队员**: 
-
-队长: [KJ](https://github.com/kernel1983)
-
-**6 本项目在这次黑客松的目标:**
-
-目标：
-1. 修改 ERC20 数据结构，能够使 balances 和 allowed 能够支持 tokenid：
-    ```solidity
-    mapping (address => mapping (uint256 => uint256)) public balances;
-    mapping (address => mapping (uint256 => mapping (address => mapping (uint256 => uint256)))) public allowed;
-    ```
-    同时重载方法，支持 tokenid：
-    ```solidity
-    function balanceOf(address _owner) external view returns (uint256 balance);
-    function balanceOf(address _owner, uint256 _from_tokenid) external view returns (uint256 balance);
-    function transfer(address _to, uint256 _value) external returns (bool success);
-    function transfer(address _to, uint256 _value, uint256 _from_tokenid, uint256 _to_tokenid) external returns (bool success);
-    function transferFrom(address _from, address _to, uint256 _value) external returns (bool success);
-    function transferFrom(address _from, address _to, uint256 _value, uint256 _from_tokenid, uint256 _to_tokenid) external returns (bool success);
-    ```
-2. 本地快速合约测试脚本，用于测试驱动开发。
-    https://github.com/kernel1983/mod6551/blob/main/scripts/mod6551.py
-    ```bash
-    brownie run mod6551 --network hardhat
-    ```
-   
-**7 黑客松前两日的进度**
-- Day 0:
-  - [x] 确定项目和目标 GitHub repo 的新建：https://github.com/kernel1983/
-  - [x] 细化任务：
-    1. 修改 ERC20 数据结构。
-    2. 修改 ERC20 transfer 方法，以及快速测试脚本。
-    3. 修改 ERC721，增加erc20_transfer方法。
-    4. 修改 ERC20 approve 方法和 transferFrom 方法。
-    5. Option，创建一个UI。
-  - [x] 查看 foundry 文档，以及源码，确定修改路径。
-- Day 1:
-  - [x] 完成任务 1-3。
-  修改数据结构比较顺利，在修改 transfer 方法的时候，使用 brownie 调试代码比较烧脑，为了增加效率引入了快速测试脚本。
-- Day 2:
-  - [x] 完成任务 4。
-  - [ ] 开始任务 5 快速学习 CSS 框架。
-  因为 solidity 代码我们之后也要用 python 再做一遍，但是构建的 UI 前端未来可以复用，所哟我们佛系的开发了 UI。
-- Day 3:
-  - [x] 完成 team info。
-  - [ ] 持续完善任务 5。
-**8 视频链接:**
-https://youtu.be/NMWOreI3nEw
-**9 项目 github repo 链接:**
-https://github.com/kernel1983/mod6551
-**10 是否基于之前的项目:**
-该项目是本次hackathon期间，从0到1开发的项目，完全原创。
-本项目服务以太坊生态，同时也用于我们的新公链 L1 BitPoW。
-**24.11 项目 Demo 链接（选填）:**
-
+- 0x00pluto
+- 0xSoren
+- 0xSkipper
+- Cybereastern
+- enixlee
+- Kevin
+- swordofJR
+- zhouzheng66
