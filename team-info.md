@@ -1,6 +1,6 @@
 # 哗啦啦（hualala）
 
-**1 项目名称**：hualala
+**1 项目名称**：hualala～
 
 **2 所选赛道**：Public Goods
 
