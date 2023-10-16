@@ -1,26 +1,56 @@
-# ETH Hangzhou Hackathon 项目提交说明
+#  eth-gleeman
 
-ETH Hangzhou Hackathon 的项目需要提交到本页，PR（Pull-Request）截止时间为 2023年10月16日 下午14:00（北京时间，UTC+8）。你需要在你的项目下更新以下内容:
-1. 项目名称
-2. 所选赛道（Public Goods，Layer2 Application，Zero Knowledge 主赛道三选一）
-3. 项目图片（1张有代表性的图片，不要过长）
-4. 简介
-5. 队长和队员
-6. 本项目在这次黑客松的目标
-7. 黑客松前两日的进度
-8. Demo 视频链接（可以是录屏或其他形式），可以选择的视频平台：[Youtube](https://youtube.com)，[Bilibili](https://bilibili.com)，[Loom](https://www.loom.com/)，视频长度不能超过3分钟，否则扣分。
-9. 项目 github repo 链接
-10. 声明未基于之前的项目, 如: 该项目是本次hackathon期间，从0到1开发的项目，完全原创。
-11. 项目 Demo 链接（选填）
+**1 项目名称**: eth-gleeman
 
-在截止时间前提交 PR，且包含前 10 项信息的项目，视为提交成功，否则不参与评奖。
+**2 所选赛道**: Public Goods
 
-评委将在2023年10月16日下午14-18点期间，根据以下4个维度对项目进行第一轮打分，每个赛道的前5名可以参加晚上19点的Demo Day：
-1. 代码 🧱
-2. 创新性 💡
-3. Demo完整度 📝
-4. 对以太坊生态的重要性 ♻️
+**3 项目图片**:
 
-进入Demo Day的每个项目有 5 分钟展示时间。
+![eth-gleeman](/img/show.jpg)
 
-❗❗❗项目提交PR示例详见：https://github.com/eth-hangzhou/ETHHangzhou/pull/6
+**4 简介**: 
+eth-gleeman是一款结合gpt3.5/4和promt工程解释evm链上交易内容的工具。
+![ai](img/ai.jpg)
+
+给定一个特定的transaction，eth-gleeman会通过debug_traceTransaction获取交易详细的call trace，并将call trace decode成可读内容。
+
+将交易类型分类（例如swap，stake，lending……）获取各类交易的call trace，并添加自然语言描述，然后讲这些内容构造成不同类型的prompt，告诉gpt3.5/4 如何解释call trace，将每一条call trace解释成自然语言内容， 例如
+```
+usdc.transferFrom(alice, bob, 100) => 'alice transfer 100 usdc token to bob'
+```
+将call trace 的解释连起来，用gpt3.5/4 总结文本进而解释完整的交易内容
+
+
+**5 队长和队员**: 
+
+[@1vkc](https://github.com/1vkc) 
+[@David Lee](https://github.com/daviddwlee84)    
+[@0xStorageRoot](https://github.com/0xStorageRoot)
+[@freyazh](https://github.com/freyazh)
+
+**6 本项目在这次黑客松的目标:**
+
+目标：本次黑客松的目标是先在构造的工作流程上用ai解释几个常见类型交易的内容，后续可以添加流程使工具更通用化。
+
+**7 黑客松前两日的进度**
+- Day 0:
+  - [x] 制定项目目标，决定实现架构。
+  - [x] 细化任务：
+    1. 决定chatgpt需要的prompt结构类型。
+    2. 确定transaction-trace-explanation-prompt的工作流程
+- Day 1:
+  - [x] 数据抓取和清洗。
+  - [x] prompt调优
+- Day 2:
+  - [x] 调试demo（覆盖了uniswapV2&V3 的交易和添加流动性的场景）
+  - [x] 准备文档
+  - [x] 录制视频
+
+**8 视频链接:**
+https://www.bilibili.com/video/BV1V94y1t7jf/
+
+**9 项目 github repo 链接:**
+所有代码都在https://github.com/1vkc/eth-gleeman
+
+**10 是否基于之前的项目:**
+该项目是本次hackathon期间，从0到1开发的项目，完全原创。
