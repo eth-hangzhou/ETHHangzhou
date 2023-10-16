@@ -38,7 +38,7 @@ LuckyFT 使用了 ChainLink 的 VRF 功能来产生随机数，部署到 sepolia
 6. 上面好运房的某个key 持有者有好运获得 10% 的分成
 
 **8 视频链接:**
-https://www.bilibili.com/video/BV1LT411x72Q/
+https://www.bilibili.com/video/BV1zN41147N8/
 
 **9 项目 github repo 链接:**
 所有代码都在
