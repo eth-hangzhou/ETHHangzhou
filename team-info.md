@@ -1403,3 +1403,51 @@ token
 0x349660Db042c78F0313F42F0b9B980a98D91C83c
 data detail
 0xC87d70c755599eeae10bA8A9413ed326DeE9BB85
+
+# 23. Beaver Community
+1. 项目名称
+    Beaver Community
+
+2. 所选赛道
+    Layer2 Application
+
+3. 项目图片
+    ![](https://raw.githubusercontent.com/WeyNiDrop/BeaverCommunity/master/beaver111.png)
+
+4. 简介
+   Beaver Community 是面向web3粉丝经济的社交dapp。Beaver Community使用类似web2直播的pk模式，但不同的是，在这里的收益只有一少部分分配给作者，更多的收益会在支持者中分配，让支持者也能够得到经济回报。Beaver Community使用竞赛机制，粉丝群体和创作者作为团体与其他团体竞争收益。
+
+5. 队长和队员
+    队长：Evan
+    队员：Chuck
+
+6. 本项目在这次黑客松的目标
+    完成项目逻辑，实现经济模型，部署合约到测试网络并实现数据索引和前端交互
+
+7. 黑客松前两日的进度
+    D1:
+    完成组队，确定产品形态和经济模型
+    合约：确定合约接口
+    前端：敲定展示样式
+
+    D2:
+    合约：完成合约实现，脚本测试通过
+    前端：完成静态demo页面
+
+    D3：
+    后端：完成合约数据索引
+    合约：部署到scroll sepolia测试网络
+
+9. Demo 视频链接
+   Bilibili：[Beaver community视频介绍](https://www.bilibili.com/video/BV1qG41117Xh/?vd_source=cca3a25d5cfca2621226982fdc02d067)
+
+10. 项目 github repo 链接
+    [合约](https://github.com/WeyNiDrop/BeaverCommunity)
+    [索引器](https://github.com/WeyNiDrop/BeaverCommunity-backend)
+
+12. 声明未基于之前的项目
+    该项目是本次hackathon期间，从0到1开发的项目，完全原创。
+
+13. 项目 Demo 链接（选填）
+    [核心合约](https://sepolia.scrollscan.dev/address/0x9a835ed238356cf3be47910bf19c3953d1bb81cf)
+    [交互页（因为前端队友临时有事，简单demp页展示信息需要在consle查看）](http://47.92.108.211/index.html)
