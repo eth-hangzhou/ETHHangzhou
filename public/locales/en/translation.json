@@ -16,8 +16,8 @@
     "join-community": "Join Community"
   },
   "time":{
-    "registry-time": "/images/reg-time.png",
-    "hackathon-time": "/images/hack-time.png"
+    "registry-time": "Registration Time：2025.2.15.-3.22",
+    "hackathon-time": "Hackathon Time：2025.3.29-3.31"
   },
   "intro": {
     "title": "ETH Hangzhou Hackathon",
@@ -134,6 +134,6 @@
     "que7": "Can I start working on my project before the event?",
     "ans7": "No. In the interest of fairness, attendees should not be working on their projects before the hackathon begins and we do not allow participants to work on pre-existing projects. But you can familarize with the tools of the project.",
     "que8": "What can I build during the event?",
-    "ans8": "We provide 3 main tracks in ETH Hangzhou. Each project must select 1 main track."
+    "ans8": "We provide 2 main tracks in ETH Hangzhou. Each project must select 1 main track."
   }
 }
