@@ -1,9 +1,8 @@
 .hero-apply__btn {
-  background: linear-gradient(99deg, #e4f9f4 1.37%, #e4f9f4 1.38%, #fff 57.09%);
-  box-shadow: 0px 0px 0.5px rgba(0, 0, 0, 0.3), 0px 2px 6px rgba(0, 0, 0, 0.2);
-  border-radius: 6px;
+  background: rgb(73,84,188);
+  box-shadow: 0px 4px 23px rgba(0, 0, 0, 0.2), 0px 4px 23px rgba(0, 0, 0, 0.2);
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
-  color: #171717;
+  color: #fff;
 }

@@ -4,7 +4,7 @@ import "../styles/hero.css";
 ---
 
 <div
-  class="h-[580px] mt-[64px] mb-[120px] flex justify-center items-center bg-white relative isolate mx-auto sm:bg-[url(/images/banner.png)] bg-[url(/images/banner-mobile.png)] bg-no-repeat bg-cover bg-top"
+  class="h-[580px] mt-[64px] mb-[120px] flex justify-center items-center bg-white relative isolate mx-auto sm:bg-[url(/images/banner.jpg)] bg-[url(/images/banner-mobile.png)] bg-no-repeat bg-cover bg-top"
 >
   <div id="hero" class="anchor -mt-[504px]"></div>
   <div class="container flex flex-col justify-center items-center">
@@ -14,33 +14,35 @@ import "../styles/hero.css";
       alt=""
       class="w-10/12 mb-[40px] sm:w-[600px] sm:mb-6 sm:mt-[26px] m-auto block inset-0 -z-10 h-full  sm:object-cover object-contain object-right md:object-center"
     />
-    <div class="flex justify-between max-sm:flex-col max-sm:items-center sm:w-[348px] mb-[40px]">
+    <div class="flex justify-between max-sm:flex-col max-sm:items-center sm:w-[348px] mb-[26px]">
       <a
         href="https://docs.google.com/forms/d/e/1FAIpQLSeqm45uEfWECqmNWErGSDR0QHFnhKPdiQyyJyrteroOhvVzrQ/viewform"
         target="_blank"
-        class="hero-apply__btn w-[166px] h-[48px] leading-[48px] mt-[40px] mb-[40px] sm:mb-[26px] text-center block max-sm:mr-0 max-sm:my-[12px]"
+        class="hero-apply__btn w-[166px] h-[48px] leading-[48px] mt-[40px] mb-[40px] sm:mb-[26px] text-center block max-sm:mr-0 max-sm:my-[12px] rounded-full"
       >
         {t("hero.apply-to-hack")}
       </a>
       <a
         href="https://discord.com/invite/cGYBRVTYEY"
         target="_blank"
-        class="hero-apply__btn w-[166px] h-[48px] leading-[48px] mt-[40px] mb-[40px] sm:mb-[26px] text-center block max-sm:my-[12px]"
+        class="hero-apply__btn w-[166px] h-[48px] leading-[48px] mt-[40px] mb-[40px] sm:mb-[26px] text-center block max-sm:my-[12px] rounded-full"
       >
         {t("hero.join-community")}</a
       >
     </div>
     <div
-      class="flex flex-wrap sm:flex-nowrap justify-between max-sm:flex-col max-sm:items-center sm:w-[616px]"
+      class="flex flex-wrap sm:flex-nowrap flex-col justify-center max-sm:flex-col max-sm:items-center sm:w-[616px]"
     >
-      <img
+      <p class="text-white text-center text-[20px] line-height-[1.5]">Registration Time：2025.2.15.-3.22</p>
+      <p class="text-white text-center text-[20px] line-height-[1.5] mt-2">Hackathon Time：2025.3.29-3.31</p>
+      <!-- <img
         src={t("time.registry-time")}
         class="w-[250px] sm:w-[300px] sm:h-[90px] inset-0 -z-10 h-full object-cover object-right sm:object-center"
       />
       <img
         src={t("time.hackathon-time")}
         class="w-[250px] sm:w-[300px] sm:h-[90px] inset-0 -z-10 h-full max-sm:mt-4 object-cover object-right sm:object-center"
-      />
+      /> -->
     </div>
   </div>
 </div>
