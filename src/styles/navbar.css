@@ -28,12 +28,12 @@
 
 .navbar a:hover {
   color: #FFFFFF;
-  background: linear-gradient(111.9deg, #27D59D 0%, #28BDD9 64.33%);
+  background: linear-gradient(111.9deg, #30328B 0%, #FFC54A 150%);
 }
 
 .navbar a.active {
   color: #FFFFFF;
-  background: linear-gradient(111.9deg, #27D59D 0%, #28BDD9 64.33%);
+  background: linear-gradient(111.9deg, #30328B 0%, #FFC54A 150%);
 }
 
 .navbar-lang select {

@@ -76,17 +76,17 @@ const scheduleData = [
           {t("schedule.Hackathon")}
         </div>
         <div
-          class="bg-gradient-to-r from-[#27D59D] to-[#28BDD9] h-[3px] w-full"
+          class="bg-gradient-to-r from-[#483787] to-[#FFD056] h-[3px] w-full"
         >
         </div>
       </div>
 
       <div class="flex">
         <div
-          class="min-h-[40px] rounded-[6px] bg-gradient-to-r from-[#27D59D] to-[#28BDD9] p-[1px] mr-[16px] tablinks"
+          class="min-h-[40px] rounded-[6px] bg-gradient-to-r from-[#483787] to-[#FFD056] p-[1px] mr-[16px] tablinks"
         >
           <div
-            class="flex h-full w-full px-[20px] py-[10px] rounded-[6px] items-center justify-center bg-[#fff] back hover:bg-gradient-to-r bg-gradient-to-r text-white from-[#27D59D] to-[#28BDD9] hover:text-white cursor-pointer select-none"
+            class="flex h-full w-full px-[20px] py-[10px] rounded-[6px] items-center justify-center bg-[#fff] back hover:bg-gradient-to-r bg-gradient-to-r text-white from-[#483787] to-[#FFD056] hover:text-white cursor-pointer select-none"
           >
             <p class="text-[16px] leading-[19px] font-medium">
               {t("schedule.time-1")}
@@ -94,10 +94,10 @@ const scheduleData = [
           </div>
         </div>
         <div
-          class="min-h-[40px] rounded-[6px] bg-gradient-to-r from-[#27D59D] to-[#28BDD9] p-[1px] mr-[16px] tablinks"
+          class="min-h-[40px] rounded-[6px] bg-gradient-to-r from-[#483787] to-[#FFD056] p-[1px] mr-[16px] tablinks"
         >
           <div
-            class="flex h-full w-full px-[20px] py-[10px] rounded-[6px] items-center justify-center bg-[#fff] back hover:bg-gradient-to-r from-[#27D59D] to-[#28BDD9] hover:text-white cursor-pointer select-none"
+            class="flex h-full w-full px-[20px] py-[10px] rounded-[6px] items-center justify-center bg-[#fff] back hover:bg-gradient-to-r from-[#483787] to-[#FFD056] hover:text-white cursor-pointer select-none"
           >
             <p class="text-[16px] leading-[19px] font-medium">
               {t("schedule.time-2")}
@@ -105,10 +105,10 @@ const scheduleData = [
           </div>
         </div>
         <div
-          class="min-h-[40px] rounded-[6px] bg-gradient-to-r from-[#27D59D] to-[#28BDD9] p-[1px] tablinks"
+          class="min-h-[40px] rounded-[6px] bg-gradient-to-r from-[#483787] to-[#FFD056] p-[1px] tablinks"
         >
           <div
-            class="flex h-full w-full px-[20px] py-[10px] rounded-[6px] items-center justify-center bg-[#fff] back hover:bg-gradient-to-r from-[#27D59D] to-[#28BDD9] hover:text-white cursor-pointer select-none"
+            class="flex h-full w-full px-[20px] py-[10px] rounded-[6px] items-center justify-center bg-[#fff] back hover:bg-gradient-to-r from-[#483787] to-[#FFD056] hover:text-white cursor-pointer select-none"
           >
             <p class="text-[16px] leading-[19px] font-medium">
               {t("schedule.time-3")}
@@ -118,6 +118,8 @@ const scheduleData = [
       </div>
     </div>
     <div class="px-[40px] pt-[20px] border-t-[1px] border-grey-300">
+      <div id="tab1" class="tabcontent" style="display: block">
+
       <div class="flex items-center">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -133,11 +135,10 @@ const scheduleData = [
             d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5"
           ></path>
         </svg>
-        <!-- <span class="text-neutral-600 text-sm leading-[17px]">
+        <span class="text-neutral-600 text-sm leading-[17px]">
           {t("schedule.open-ceremony")}
-        </span> -->
+        </span>
       </div>
-      <div id="tab1" class="tabcontent" style="display: block">
         <div
           class="py-[24px] border-grey-300 border-b-[0.5px] flex items-center"
         >
@@ -177,6 +178,46 @@ const scheduleData = [
             {t("schedule.tab-1-time-4")}
           </div>
           <p class="text-base leading-[19px]">{t("schedule.tab-1-title-4")}</p>
+        </div>
+        <div
+          class="py-[24px] border-grey-300 border-b-[0.5px] flex items-center"
+        >
+          <div
+            class="py-[10px] px-[40px] border-[0.5px] border-grey-300 rounded-[100px] mr-[16px]"
+          >
+            {t("schedule.tab-1-time-5")}
+          </div>
+          <p class="text-base leading-[19px]">{t("schedule.tab-1-title-5")}</p>
+        </div>
+        <div
+          class="py-[24px] border-grey-300 border-b-[0.5px] flex items-center"
+        >
+          <div
+            class="py-[10px] px-[40px] border-[0.5px] border-grey-300 rounded-[100px] mr-[16px]"
+          >
+            {t("schedule.tab-1-time-6")}
+          </div>
+          <p class="text-base leading-[19px]">{t("schedule.tab-1-title-6")}</p>
+        </div>
+        <div
+          class="py-[24px] border-grey-300 border-b-[0.5px] flex items-center"
+        >
+          <div
+            class="py-[10px] px-[40px] border-[0.5px] border-grey-300 rounded-[100px] mr-[16px]"
+          >
+            {t("schedule.tab-1-time-7")}
+          </div>
+          <p class="text-base leading-[19px]">{t("schedule.tab-1-title-7")}</p>
+        </div>
+        <div
+          class="py-[24px] border-grey-300 border-b-[0.5px] flex items-center"
+        >
+          <div
+            class="py-[10px] px-[40px] border-[0.5px] border-grey-300 rounded-[100px] mr-[16px]"
+          >
+            {t("schedule.tab-1-time-8")}
+          </div>
+          <p class="text-base leading-[19px]">{t("schedule.tab-1-title-8")}</p>
         </div>
       </div>
       <div id="tab2" class="tabcontent">
@@ -238,6 +279,18 @@ const scheduleData = [
           </div>
           <p class="text-base leading-[19px]">
             {t("schedule.tab-2-title-5")}
+          </p>
+        </div>
+        <div
+          class="py-[24px] border-grey-300 border-b-[0.5px] flex items-center"
+        >
+          <div
+            class="py-[10px] px-[40px] border-[0.5px] border-grey-300 rounded-[100px] mr-[16px]"
+          >
+            {t("schedule.tab-2-time-6")}
+          </div>
+          <p class="text-base leading-[19px]">
+            {t("schedule.tab-2-title-6")}
           </p>
         </div>
       </div>
@@ -312,6 +365,42 @@ const scheduleData = [
           </div>
           <p class="text-base leading-[19px]">
             {t("schedule.tab-3-title-6")}
+          </p>
+        </div>
+        <div
+          class="py-[24px] border-grey-300 border-b-[0.5px] flex items-center"
+        >
+          <div
+            class="py-[10px] px-[40px] border-[0.5px] border-grey-300 rounded-[100px] mr-[16px]"
+          >
+            {t("schedule.tab-3-time-7")}
+          </div>
+          <p class="text-base leading-[19px]">
+            {t("schedule.tab-3-title-7")}
+          </p>
+        </div>
+        <div
+          class="py-[24px] border-grey-300 border-b-[0.5px] flex items-center"
+        >
+          <div
+            class="py-[10px] px-[40px] border-[0.5px] border-grey-300 rounded-[100px] mr-[16px]"
+          >
+            {t("schedule.tab-3-time-8")}
+          </div>
+          <p class="text-base leading-[19px]">
+            {t("schedule.tab-3-title-8")}
+          </p>
+        </div>
+        <div
+          class="py-[24px] border-grey-300 border-b-[0.5px] flex items-center"
+        >
+          <div
+            class="py-[10px] px-[40px] border-[0.5px] border-grey-300 rounded-[100px] mr-[16px]"
+          >
+            {t("schedule.tab-3-time-9")}
+          </div>
+          <p class="text-base leading-[19px]">
+            {t("schedule.tab-3-title-9")}
           </p>
         </div>
       </div>

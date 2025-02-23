@@ -7,13 +7,13 @@ import { Trans, HeadHrefLangs } from "astro-i18next/components";
   <h1>
     {t("intro.title")}
     <!-- <img src="/images/2023-badge-1.png" class="mx-4 year" /> -->
-    <div class="year-text">2023</div>
+    <div class="year-text">2025</div>
   </h1>
   <p class="text-neutral-900 desc">
     {t("intro.decs")}
   </p>
-  <div class="wrapper max-lg:w-[440px] max-sm:w-[320px] items-center">
-    <div class="icon-wrapper max-lg:border-b-[0.5px] lg:border-r-[0.5px]">
+  <div class="wrapper w-[756px] max-lg:w-[756px] max-sm:w-[320px] items-center">
+    <div class="icon-wrapper max-lg:border-b-[0.5px] lg:border-b-[0.5px]">
       <div class="svg-container">
         <div class="icon">
           <img src="/images/organizer.svg" class="b-u" />
@@ -29,6 +29,7 @@ import { Trans, HeadHrefLangs } from "astro-i18next/components";
           >.
         </Trans>
       </p>
+      <br>
       <p>
         <Trans i18nKey="intro.content-2">
           The hackathon is hosted by <b>ZJU Blockchain DAO</b> (Zhejiang University
@@ -72,6 +73,7 @@ import { Trans, HeadHrefLangs } from "astro-i18next/components";
     position: relative;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     border: 0.5px solid #9ca3af;
     box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.06);
     border-radius: 10px;
@@ -82,7 +84,7 @@ import { Trans, HeadHrefLangs } from "astro-i18next/components";
     justify-content: center;
     align-items: center; */
     /* height: 229px; */
-    width: 440px;
+    width: 100%;
   }
   .year {
     height: 37px;
@@ -118,7 +120,7 @@ import { Trans, HeadHrefLangs } from "astro-i18next/components";
     flex: 1;
   }
   .b-u {
-    width: 450px;
+    width: 756px;
   }
   .wtf {
     width: 140px;
@@ -134,7 +136,7 @@ import { Trans, HeadHrefLangs } from "astro-i18next/components";
     bottom: -60px;
   }
   .year-text {
-    background: linear-gradient(101deg, #27d59d 0%, #28bdd9 100.3%);
+    background: linear-gradient(101deg, #30328B 0%, #FFC54A 150.3%);
     font-family: Lato;
     font-size: 26px;
     border-radius: 4px;
