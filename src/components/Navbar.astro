@@ -6,7 +6,7 @@ import "../styles/navbar.css";
 
 <script>
   const closeBtn: Element | any = document.querySelector(
-    ".navbar-mb__btn .close"
+    "#navbar-close-btn"
   );
   const foldBtn: Element | any = document.querySelector(
     ".navbar-mb__btn .fold"
@@ -56,7 +56,7 @@ import "../styles/navbar.css";
 
   // const lang: Element = document.getElementById("lan")!;
   const lanList: Element = document.getElementById("lan-list")!;
-  const langMobile: Element | any = document.getElementById("languag-mb");
+  // const langMobile: Element | any = document.getElementById("languag-mb");
   const lanListEN: Element = document.getElementById("lan-list-en")!;
   const lanListZH: Element = document.getElementById("lan-list-zh")!;
 
@@ -95,26 +95,26 @@ import "../styles/navbar.css";
   //   }
   // });
 
-  langMobile.addEventListener("change", (e: any) => {
-    const { value = "english" } = e.target;
-    const { origin, hash } = location;
+  // langMobile.addEventListener("change", (e: any) => {
+  //   const { value = "english" } = e.target;
+  //   const { origin, hash } = location;
 
-    if (value === "chinese") {
-      location.href = origin + "/zh/" + hash;
-      closeMobileNav();
-    }
+  //   if (value === "chinese") {
+  //     location.href = origin + "/zh/" + hash;
+  //     closeMobileNav();
+  //   }
 
-    if (value === "english") {
-      location.href = origin + "/" + hash;
-      closeMobileNav();
-    }
-  });
+  //   if (value === "english") {
+  //     location.href = origin + "/" + hash;
+  //     closeMobileNav();
+  //   }
+  // });
   if (location.pathname.includes("zh")) {
     lanCurrent.children[0].innerHTML = "简体中文";
-    langMobile.value = "chinese";
+    // langMobile.value = "chinese";
   } else {
     lanCurrent.children[0].innerHTML = "English";
-    langMobile.value = "english";
+    // langMobile.value = "english";
   }
 </script>
 <nav class="bg-white fixed top-0 left-0 w-full z-10">
@@ -155,6 +155,7 @@ import "../styles/navbar.css";
             Menu open: "block", Menu closed: "hidden"
           -->
           <svg
+            id="navbar-close-btn"
             class="close hidden h-6 w-6"
             fill="none"
             viewBox="0 0 24 24"
