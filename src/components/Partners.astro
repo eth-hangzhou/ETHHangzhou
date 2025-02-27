@@ -3,26 +3,41 @@ import { t } from "i18next";
 
 const cardData = [
   {
-    img: "/images/sponsor/1_chainlink.png",
+    img: "/images/partner/1.png",
   },
   {
-    img: "/images/sponsor/2_scroll.png",
+    img: "/images/partner/2.png",
   },
   {
-    img: "/images/sponsor/3_ZAN.png",
+    img: "/images/partner/3.png",
   },
   {
-    img: "/images/partner/1_AWS.webp",
+    img: "/images/partner/4.png",
   },
   {
-    img: "/images/partner/2_4everland.png",
+    img: "/images/partner/5.png",
   },
-  
+  {
+    img: "/images/partner/6.png",
+  },
+  {
+    img: "/images/partner/7.png",
+  },
+  {
+    img: "/images/partner/8.png",
+  },
 ];
 ---
 
 <section class="container">
-  <div class="title">{t("partner.title")}</div>
+  <div class="title flex items-center gap-x-3 text-neutral-900">
+    <svg width="36" height="34" viewBox="0 0 36 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M17.3491 33.3362L17.3371 33.3298L17.2956 33.3073C17.2602 33.2881 17.2097 33.2603 17.1449 33.2242C17.0154 33.1519 16.8289 33.0461 16.5938 32.9077C16.1236 32.6311 15.4575 32.2238 14.6607 31.6941C13.0697 30.6365 10.9439 29.0818 8.81243 27.0949C4.59432 23.1628 0.125 17.321 0.125 10.125C0.125 4.7569 4.6416 0.5 10.0938 0.5C13.3 0.5 16.1709 1.96499 18 4.26126C19.8291 1.96499 22.7 0.5 25.9062 0.5C31.3584 0.5 35.875 4.7569 35.875 10.125C35.875 17.321 31.4057 23.1628 27.1876 27.0949C25.0561 29.0818 22.9303 30.6365 21.3393 31.6941C20.5425 32.2238 19.8764 32.6311 19.4062 32.9077C19.1711 33.0461 18.9846 33.1519 18.8551 33.2242C18.7903 33.2603 18.7398 33.2881 18.7044 33.3073L18.6629 33.3298L18.6509 33.3362L18.6458 33.3389C18.2426 33.553 17.7574 33.553 17.3542 33.3389L17.3491 33.3362Z" fill="#FFC54A"/>
+    </svg>
+    <span class="text-neutral-900 text-4xl leading-[17px]"
+      >{t("partner.title")}</span
+    >
+  </div>
   <div class="flex flex-wrap justify-center gap-5 mt-[60px] mb-[200px]">
     {
       cardData.map((item) => {
@@ -71,15 +86,14 @@ const cardData = [
 
   .card_box {
     height: 96px;
-    width: 250px;
+    width: 340px;
     border-radius: 10px;
-    padding: 16px 20px 16px 20px;
+    padding: 20px;
     border: 0.5px solid #9ca3af;
-    display: flex;
+    background: #ffffff;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     padding: 16px 20px;
-    margin-top: 20px;
   }
 </style>
