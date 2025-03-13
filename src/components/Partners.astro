@@ -26,6 +26,15 @@ const cardData = [
   {
     img: "/images/partner/8.png",
   },
+  {
+    img: "/images/partner/9.png",
+  },
+  {
+    img: "/images/partner/10.png",
+  },
+  {
+    img: "/images/partner/11.png",
+  },
 ];
 ---
 
@@ -95,5 +104,14 @@ const cardData = [
     align-items: center;
     justify-content: center;
     padding: 16px 20px;
+  }
+
+  .card_box:nth-child(-n + 2){
+    width: 520px;
+  }
+  @media screen and (max-width: 768px) {
+    .card_box:nth-child(-n + 2){
+      width: 340px;
+    }
   }
 </style>
