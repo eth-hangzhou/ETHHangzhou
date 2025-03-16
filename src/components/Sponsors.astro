@@ -2,25 +2,34 @@
 import i18next, { t } from "i18next";
 const cardData = [
   {
+    img: "/images/sponsor/12.png",
+  },
+  {
     img: "/images/sponsor/1_bitget.png",
+  },
+  {
+    img: "/images/sponsor/9.png",
   },
   {
     img: "/images/sponsor/2_injective.png",
   },
   {
-    img: "/images/sponsor/3_pond.png",
+    img: "/images/sponsor/6_nftgo.png",
   },
   {
     img: "/images/sponsor/4_SNZ.png",
   },
   {
-    img: "/images/sponsor/5_chainlink.png",
+    img: "/images/sponsor/3_pond.png",
   },
   {
-    img: "/images/sponsor/6_nftgo.png",
+    img: "/images/sponsor/10.png",
   },
   {
     img: "/images/sponsor/7.png",
+  },
+  {
+    img: "/images/sponsor/5_chainlink.png",
   },
   {
     img: "/images/sponsor/8.png",
@@ -44,13 +53,7 @@ const cardData = [
           <div class="card_box flex">
             <div class="avatar">
               <img
-                class={`avatar_img ${
-                  item.img == "/images/token-pocket.png" ||
-                  item.img == "/images/aspecta.png" ||
-                  item.img == "/images/bixin.png"
-                    ? "w-[240px]"
-                    : "w-[150px]"
-                }`}
+                class={`avatar_img`}
                 src={item.img}
               />
             </div>
@@ -88,5 +91,14 @@ const cardData = [
     align-items: center;
     justify-content: center;
     padding: 16px 20px;
+  }
+
+  .card_box:nth-child(-n + 2){
+    width: 520px;
+  }
+  @media screen and (max-width: 768px) {
+    .card_box:nth-child(-n + 2){
+      width: 340px;
+    }
   }
 </style>
